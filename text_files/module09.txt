@@ -1,0 +1,148 @@
+Designed to limit the spread of malware, __:firewall
+A firewall uses bidirectional __ to examine incoming/outgoing __:inspection packets
+Firewall based on specific critieria or actions is known as, _ _ _:rule based firewall
+Firewall that allows more generic statements instead of specific rules, _ _ _:policy based firewall
+In addition to filtering based on packets, firewalls can filter based on _ / _ filtering:content url
+Looks at a packet & permits/denies based on firewall rule, __ packet filtering:stateless
+Looks at packet & state of the connection, __ packet filtering:stateful
+Keep record between state of connection between endpoint & external device, __ packet filtering:stateful
+Firewall, that runs as program or service on device, _ firewall:software
+Firewall, that are specialized separate devices that inspect traffic, __ firewall:hardware
+Firewall, is a software firewall that runs on protects a single endpoint, _ _ firewall:host based
+Firewall, typically a separate hardware device designed to protect an entire network, __ firewall:appliance
+Firewall, one that runs in the cloud, __ firewall:virtual
+Firewall, looks at the applications using HTTP, _ _ firewall:web application
+cloud based technology that performs NAT for cloud services, _ _ _ _:network address translation gateway
+Has additional functionality beyond traditional firewall, _ _ _:next generation firewall
+Can filter packets based on applications, __:ngfw
+Can detect applications by using deep packet inspection to determine if malware is present, __:ngfw
+Can perform URL filtering & intrusion prevention services, __:ngfw
+Device that combines several functions, packet filtering, antiphishing, encryption, protection, _ _ _:unified threat management
+**PROXY SERVERS**:ok
+In general, a __ is a person who is authorized to act as an agent on behalf of another person:proxy
+Computer/Application that intercepts user requests from the INTERNAL secure network & then processes the request, _ _:forward proxy
+Computer/Application that routes requests coming from an EXTERNAL network to the correct internal server, _ _:reverse proxy
+Acting as an __, a proxy server can provide a degree of protection:intermediary
+1.) Proxy server can look for __ by intercepting it before it reaches internal endpoint:malware
+2.) Proxy server can __ the IP addresses of endpoints:hide
+**DECEPTION INSTRUMENTS**:ok
+__ the act of causing someone to accept as true that is false:deception
+Computer located within area w/limited security that serves as "bait":honeypot
+2 Goals when using a honeypot, __ & __:deflect discover
+A __ __ honeypot may only contain a login prompt:low interaction
+A __ __ honeypot is designed to capture much information about threat actor:high interaction
+Collection of data, # of crashes, usage stastics, behavior, etc, __:telemetry
+Similar to honeypot, a __ is a network setup with intentional vulnerabilities:honeynet
+Bottomless pit designed to steer unwanted traffic away from intended destination, __:sinkhole
+Changes normal DNS requests to pre-configured IP address that points to a firewall, __ sinkhole:DNS
+A __ system is connected directly to the network & monitors flow of data:inline
+A __ system is connected to a port or switch which receives a copy of network traffic:passive
+_ _ management through the network itself byusing network protocols & tools:in band
+_ _ management is using an independent & dedicated channel to reach the device:out of band
+**MONITORING METHODOLOGIES**:ok
+Involves examining network traffic, activity, transactions, behavior, _-:monitoring
+The 4 monitoring methodologies, __, __, __, __:anomaly signature behavior heuristic
+Monitoring, designed to detect statistical anomalies, _:anomaly
+Advantage of anomaly montioring is that is can detect anomalies __:quickly
+A disadvantage of anomaly monitoring is that it imposes __ processing loads:heavy
+Monitoring that compares activities against a predefined signature, __:signature based
+__ monitoring requires access to an updated database of signatures along with means to compare, __:signature based
+A disadvantage of signature based monitoring is that the __ must be constantly updated:databases
+__ __ attempts to overcome limitations of both anomaly-based & signature-based, __:behavorial
+Rather then using __ & __ as the standard by which comparisons are made:statistics signatures
+Behavior based monitoring uses the __ processes & actions as the standard:normal
+Advantage of behavior monitoring is no need to __ signature files or compile baseline statistics:update
+Final monitoring is founded on experience-based techniques, __ monitoring:heuristic
+Heuristic is Greek for the word to _ or _:find discover
+Attempts to answer the question 'will this do something harmful if executed?', __ monitoring:heuristic
+(ACRONYM) NIDS:network intrusion detection system
+(ACRONYM) NIPS:network intrusion prevention system
+A major difference between NIDS & NIPS is the __:location
+A NIDS has sensors that monitors the traffic entering/leaving a __ :firewall
+A NIPS would be located __ on the firewall itself:inline
+**NETWORK HARDWARE SECURITY MODULE**:ok
+Removable external cryptographic device, _ _ _:hardware security module
+For endpoints an HSM is typically as __ device, __ card, or __ that connects directly to a computer port:usb expansion device
+Special trusted network computer that performs cryptographic operations such as key mgmt, key exchange, onboard random #, _ _ _ _:network hardware security module
+Due to security risks, these are usually built on specialized hardware running security-focused OS w/limited external access, _ _ _ _:network hardware security module
+*CONFIGURATION MANAGEMENT*:ok
+Baselines serves 2 purposes, initial __ point, & __ that can be used for comparisons:starting minimum
+A secure __ __ for security appliances likewise has 2 purposes:baseline configuration
+1st, it is the __ point for configuring a device:starting
+2nd, it is __ security required, no configuration should be less secure than the baseline:minimum
+Using the same conventions for assigning names to appliances, _ _ _, can eliminate confusion:standard naming convention
+Standard Guide for assigning IP addresses to devices, _ _ _:internet protocol schema
+**SECURITY TECHNOLOGIES**:ok
+Contains rules that administer the availability of digital assets by granting/denying access to assets, _ _ _:access control lists
+2 types of ACL are  __ ACLS which filter access to files/directories on an endpoint:filesystem
+__ ACLs filter access to a network:network
+Network ACLs are often found on __:routers
+Router ACLs can restrict known vulnerable __ from entering the network:protocols
+Router ACLs can limit __ entering the network from __ networks:traffic unapproved
+Router ACLs can protect against IP __ that imitates another computer's IP address:spoofing
+Security Technology that enables auth user to access unsecured public network, _ _ _:virtual private network
+There are 2 common types of VPNs, _ _ & _to _:remote access site site
+A user-LAN connection for remote uers, _ _ VPN:remote access
+Multiple sites can connect to other sites over the internet, _ to _ VPN:site site
+Some VPNs allow the user to always stay connected, they are called _-_ VPNs:always on
+2 OPTIONS for using a VPN, _ _ or _ _:full tunnel split tunnel
+Sends all traffic to the VPN concentrator & protects it, _ _:full tunnel
+Only some traffic over the secure VPN will be encrypted, _ _:split tunnel
+Using a split tunnel can help preserve __ & reduce __ on VPN concentrator:bandwidth load
+VPN protocol that does not offer encryption, paired with IPsec, _ _ _ _ :layer 2 tunneling protocol
+_ _ _ examines the current state of endpoint before it can connect to the network:network access control
+Some NAC systems use software installed on endpoints, known as __:agents
+One means of securing data is through _ _ _:data loss prevention
+System of security tools used to recognize & id data critical to org & protect it, _ _ _:data loss prevention
+DLP is considered as __ __:rights management
+Authority of the owner of the data to impose restrictions on its use, _ _:rights management
+Security Analysis of the transaction within its approved context, _ _:content inspection
+Most DLP systems use __ __:content inspection
+DLP systems also can use __ __:index matching
+DLP begins with Admin creating DLP __:rules
+DLP can look for specific __:data
+In addition, __ or __ can be created to prevent specific files from being scanned:whitelist blacklist
+When a policy violation is detected by the DLP __ it is reported back to the DLP __:agent server
+Disadvantage of DLP is that __ must be continually created & maintained:rules
+When data is used for testing purposes, __ may be used to protect it:masking
+Involves creating a copy of the original data but obfuscating sensitive elements, _ _:data masking
+Obfuscates sensitive data elements into a random string of characters, __:tokenization
+**PORT SECURITY**:ok
+(ACRONYM) STP:spanning tree protocol
+STP prevents __ __ by using __ __:broadcast storm loop prevention
+STP uses an __ that creates a hierarcical __ layout that spans the entire network:algorithm tree
+STP determines all __ paths a switch has, recognizes __ path, then __ all other paths:redudant best blocks
+STP does this by sending out _ _ _ _ that contain information about the switch port:bridge protocol data unit
+Feature that on switch that creates an alert when BPDU is received from endpoint & not switch, _ _:bpdu guard
+A switch with __ __ enabled drops any DHCP traffic when info is determined unacceptable:dhcp snooping
+** PACKET CAPTURE & ANALYSIS**:ok
+port _ _ _ transmits send/receive data streams so that all data arrives at monitoring tool in real time:test access point
+A managed switch on an Ethernet network supports port __:mirroring
+Port mirroring is also called port __, because it uses switch port analyzer:spanning
+__ __ allows admin to configure switch to copy traffic on ports and send traffic to monitoring port:port mirroring
+**QUALITY of SERVICE**:ok
+set of network technologies to guarantee ability to dependably serve network resources, _ _ _:quality of service
+QoS technologies provide "__" handling & capacity allocation to specific network traffic:differentiated
+**DESIGN TECHNOLOGIES**:ok
+Attempts to eliminate the concept of trust from an org network architecture, _ _:zero trustr
+Strategic Initiative about networks that is designed to prevent successful attacks, _ _:zero trust
+The Motto of zero trust, "_ _, _ _":never trust always verify
+STEPS in CREATING zero trust architecture:ok
+1.) ID a "protect _":surface
+2.) Determine the __ that interact with the protect surface:entities
+3.) Put __ in place as close to the protect surface as possible:controls
+Zero trust requires that networks be __:segmented
+__ switches resides at the top of the hierarchy:core
+__ switches are connected directly to the devices on the network:workgroup
+Segmenting a network into logical groups by a creating a __ __:virtual lan
+To allow untrusted outside users access to resources most networks employ a __ __:demilitarized zone
+The __ functions as a separate network outside of the secure network perimeter:dmz
+Minimally configured admin server within the DMZ, _ _ :jump box
+Running only essential protocols & ports, _ _, connects 2 dissimilar security zones:jump box
+Technology that can evenly distribute work across a network, _ _:load balancing
+load balancing schedule that wherein rotation applies to all devices equally, _ _:round robin
+load balancing schedule that distributes load based on which device can handle load more efficiently, _:affinity
+In __-__ config, primary load balancer distributes traffic to most suitable server: active passive
+In __-__ config, all load balancers are always active:active active
+IP address & port # that can be used to reference physical servers, _ _:virtual IP
+A process in which load balancer creates a link between endpoint & network server for duration of session, __:persistence

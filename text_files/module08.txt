@@ -1,0 +1,117 @@
+**INTERCEPTION ATTACKS**:ok
+3 of the most common interception attacks are __, _ _, __:mitm session replay mitb
+(ACRONYM) MITM:man in the middle
+Threat actor is positioned in a communcations between two parties, _ _ _ _ attack:man in the middle
+The goal of an MITM is to __ on the conversation or __ one of the parties:eavesdrop impersonate
+A typical MITM has __ phases:2
+The first phase is __ the traffic:intercepting
+A common form of interception is for threat actor to pretend to be web app by altering _ _ in an _ address:packet headers ip
+When users attempt to accesss a URL connected to the app, they are instead sent to the __ __:attacker website
+A __ attack is a variation of a MITM attack:replay
+Whereas a MITM attack alters & then __ the tranmission __:sends immediately
+A __ attack makes a __ of the legitimate transmission before sending:replay copy
+The __ is used later when the MITM "__" the transmission:copy replays
+An attack which involves intercepting & using the session ID to impersonate a user, _ _:session replay
+A _ _ is a unique number that web server assigns a specific user for duration of user's visit:session ID
+Session IDs are usually __ bits in length & are hashed using a secure hash function:128
+Threat actors use several techniques for stealing an active session ID(OK):Ok
+These include network attacks, such as _ & _ _ between 2 users:hijacks altered communication
+These also include endpoint attacks, such as, _ _ _, _, & malicious _ _:cross site scripting trojan javascript coding
+_ _ _ _ attack intercepts communication between parties to steal or manipulate the data:man in the browser
+Whereas a MITM attack occurs between 2 __:endpoints
+MITB occurs between the web _ & the underlying _:browser computer
+MITB attack seeks to intercept & manipulate the comms between _ _ & _ _ of the computer:web browser security mechanism
+Threat actors gain several advantages in a MITB attack(OK):ok
+1.) Most MITB attacks are distributed through _ _ _:trojan browser extensions
+2.) An infected MITB might remain __ for months until triggered:dormant
+3.) MITB software resides exclusively within the _ _, making it difficult to detect:web browser
+**LAYER 2** ATTACKS:ok
+2 Common Layer 2 attacks are _ _ & _ _ _ attacks:arp poisoning media access control
+Threat actors change data stored in ARP cache to point to different IP address, _ _:arp poisoning
+__, which is deceiving by impersonating another's identity:spoofing
+ARP poisoning uses __:spoofing
+Two common attacks involving MAC addresses are MAC __ & MAC __:cloning flooding
+Threat actors spoof MAC address on their device, send packets onto network which changes target MAC addr, _ _:mac cloning
+A _ _ attack is another attack based on spoofing, MAC cloning, & MAC addr table of switch:mac flooding
+Switch is overflow with spoofed Ethernet packets so that every packet contains different SOURCE MAC addr, _ _:mac flooding
+MAC flooding quickly consumes all the __ for the MAC address table, called the _ _ _:memory content addressable memory
+One MAC table is full, switch enters _-_ & broadcasts frames to all __:fail-open ports
+Like ARP-poisoning a __ attack substitutes a DNS address so that computer is silently redirected to different device:dns
+A successful DNS attack has _ consequences:2
+The goal of a DNS attack is __ __:url redirection
+Instead of users reaching their intended site, they are redirected to another site, _ _:url redirection
+The second goal of a DNS attack is to create low _ _:domain reputation
+An email service that has sent spam or unwanted bulk email has a low _ score:reputation
+Can indentify a domain used for distributing malware or launching attacks, _ _:domain reputation
+DNS attacks include DNS _ & DNS _:poisoning hijacking
+Attack that modifies a local lookup table on a device to point to a different domain, _ _:dns poisoning
+DNS poisoning involves modifying the local _ _ :hosts table
+In Linux the hosts table is located at _:/etc/hosts
+Attack to infect an external DNS server with IP addr that point to malicious sites, _ _:dns hijacking
+DNS hijacking has the advantage of redirecting __ users accessing the server:all
+Attackers attempt to exploit protocol flaw & convince authentic DNS server to accept fradulent DNS entries, _ _:DNS hijacking
+DNS HIJACKING STEPS:ok
+1.) __ sends request to a valid DNS server asking to resolve name of __ website:attacker malicious
+2.) DNS server asks the responsible _ _ , which is the attacker's address:name server
+3.) Attacker's name server sends the IP of the __ website & all of it __ to the valid DNS server:malicious records
+4.) Any requests to the valid DNS server will now respond with __ IP addresses:hackers 
+The advantage of DNS POISONING is that __ domains __ victim uses is controlled by threat actor:all one
+The advantage of DNS HIJACKING is that __ domains are controlled, but __ users access DNS server are __:fewer all redirected
+(ACRONYM) DDOS:distributed denial of service
+thousands of sources producing a torrent of bogus requests, _ _ _ _:distributed denial of service
+(ACRONYM) OT:operational technology
+Endpoints that can be programmed & have an IP addr, _ _ :operational technology
+**SCRIPTING**:ok
+4 types of programs to perform scripting attacks, _ _ _ _:powershell python vba bash
+Admin tasks in Powershell are performed by __:cmdlets
+CMDLETS are specialized __ classes that implement a specific operation:.net
+Because most apps flag powershell as trusted, its actions are rarely __:scrutinized
+(ACRONYM) VBA:visual basic for applications
+An event-driven Microsoft programming language, _ _ _:visual basic for applications
+VBA is used to create __:macros
+A series of instructions that can be grouped together as a single command, __:macro
+**NETWORK RECONNAISSANCE & DISCOVERY TOOLS**:ok
+Shows the path details a packet takes from source to destination (MSFT), __:tracert
+Shows the path details a packet takes from source to destination (LINUX), __:traceroute
+DNS diagnostic utility (MSFT), _:nslookup
+DNS diagnostic utility (LINUX), _:dig
+displays network configuration information (MSFT), __:ipconfig
+displays network configuration information (LINUX), __:ifconfig
+tests endpoints reachability, _:ping
+provides TCP network connections, network interfaces, routing tables, network statistics __:netstat
+a combination of 'ping' & 'tracert' that will test connection at each hop, __:pathping
+displays & manipulates IP routing tables to create static routes (LINUX), _:route
+transfers data to or from a server (LINUX), _:curl
+sends custom TCP/IP packets, (LINUX), _:hping
+**3rd PARTY NETWORK RECONN & DISCOVERY**:ok
+provides info about email accounts, host names, domains from public sources, _:theharvester
+List DNS information of a domain, _:dnsenum
+Penetration testing tool, _:sn1per
+Automated malware analysis system, _:cuckoo
+vulnerability assessment tool, _:nessus
+tool for using websites to perform port scan, _:scanless
+network discovery & security auditing, _:nmap
+A acryptographic library that offers open source applications of the TLS protocol, __:openssl
+OpenSSL also supports __:scripting
+popular GUI based packet capture & analysis tool, _:wireshark
+command line packet analyzer, _:tcpdump
+tool used for editing packets & 'replaying' packets onto the network to observer behavior, _:tcpreplay
+**EXTERNAL PERIMETER DEFENSES**:ok
+__ __ an attempt to make the physical prescence of a building as nondescript as possible:industrial camouflage
+tell permanent structure to keep unathorized people out, _:fencing
+nontoxic petroleum paint applied to surfaces to make climbing difficult, _ _:anticlimb paint
+spiked collar that extends up from pole, _ _:anticlimb collar
+independently rotating large cups affixed to top of fence, prevent climber from gripping top of fence _ _:roller barrier
+installed on top of walls, tri-wing spike collars rotate around central spindle, _ _:rotating spikes
+designed to block the passage of traffic, _ :barricade
+short but sturdy vertical post prevent vehicular traffic, _: bollard
+An area that separates threat actors from defenders, _ _:demilitarized zone
+network security measure to physically isolate a computer network from unsecured networks, _:airgap
+physical space designed to separate nonsecure area from secured area. _:mantrap
+data center layout server racks in one row with cold air intakes one direction & hot air EXHAUSTS in facing another, _-_/_-_:hot aisle cold aisle
+system of cable conduits used to protect classified info that is being transmitted, _ _ _:protected cable distribution
+data cables are installed in conduit constructed of special electrical metallic tubing, _ _ PDS:hardened carrier
+carrier system deployed with Fiber Optic cables that sense acoustic vibrations, _ _ PDS:alarmed carrier
+**COMPUTER HARDWARE SECURITY**:ok
+physical device inserted into computer to lock it, _ _:cable lock
+metallic enclosure that prevents the entry or escape of an electromagnetic field, _ _:farady cage

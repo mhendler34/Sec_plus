@@ -1,0 +1,56 @@
+acknowledging a risk but taking no steps to address it:acceptance
+(ACRONYM) ALE:annualized expected loss
+expected monetary loss for an asset due to risk over 1yr period:annualized loss expectancy
+(ACRONYM) ARO:annualized rate of occurrence
+calculation for determining the likelihood of a risk occurring within a year:annualized rate of occurrence
+relative worth of an asset:asset value
+ID risk but making the decision to not engage in the activity:avoidance
+(ACRONYM) BPA:business partnership agreement
+contract between 2 or more business partners that is used to establish rules & responsbilities of each partnert:business partner agreement
+controls that provide an alternative to normal controls that for some reason cannot be used:compensating controls
+probability that financial statements are misstated because of failurtes in the system of controls:control risk
+controls that intended to mitigate or lessen the damage caused by an incident:corrective controls
+data classified according to availability needs:critical
+changing data so that there is not a means to reverse the process to restore data back to original state:data anonymization
+creating a copy of original data but obfuscating any sensitive elements:data masking
+limiting the collection of personal information to that which is directly relevant:data minimization
+process of cleaning data to provide privacy:data sanitation
+country specific requirements that apply to data:data sovereignty
+permanently destroying hard drive by elliminating its magnetic field:degaussing
+controls designed to ID threats that have reach the system:detective controls
+controls that attempt to discourage security violations before they occur:deterrent controls
+adding steps as the result of a data breach being classsified as a major incident:escalation
+means for measuring the effectiveness of the orgs activities:impact assessment
+flow of data from creation to obsolescence:information life cycle
+current risk level given the existing set of controls:inherent risk
+how realisitic the chaance is that given threat will compromise an asset:likelihood of occurence
+controls that use administrative methods:managerial controls
+(ACRONYM) MSA:measurement system analysis
+tool to determine amount of variation that is added to process by a measurement system:measurement system analysis
+(ACRONYM) MOU:memorandum of understanding
+describes agreement between 2 parties that is not legally binding:memorandum of understanding
+addressing a risk by making the risk less serious:mitigation
+risk that impact multiple organizations:multiparty
+controls implemented and executed by people:operational controls
+controls that prevent the threat from coming into contact with the vulnerability:preventative controls
+document that outlines how the organization uses the personal information it collects:privacy notice
+restricted data with a medium level of confidentiality:private
+data that belongs to the enterprise:proprietary
+changing data so there is a means to restore data back to its original state:pseudo-anonymization
+data for which there is no risk of release:public
+breaking paper into wood cellulose fibers after the ink is removed to destroy the data on it:pulping
+"hammering" the paper into dust to destroy the data on it:pulverizing
+controls based upon regulatory reqs that may be required regardless of risk:regulations that affect risk posture
+risk that remains after controls are applied:residual risk
+likelihood of negative events X its impact:risk
+(ACRONYM) RCSA:risk control self assessment
+list of potential threats & associated risks often shown as a table:risk register
+data that could cause catastrophic harm if disclosed:sensitive
+SLA:service level agreement
+service contract that specifies what will be provided, responsibilities of each party, etc...:service level agreement
+(ACRONYM) SLE:single loss expectancy
+expected monetary loss every time a risk occurs:single loss expectancy
+controls that are incorporated as part of hardware, software, or firmware:technical controls
+document that defines what is expected from both org and its users:terms of agreement
+data destruction technique that requires specialized equipment from outside source:third party solution
+transferring responsbility of a risk to a 3rd party:transference

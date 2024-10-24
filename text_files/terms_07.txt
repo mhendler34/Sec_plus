@@ -1,0 +1,73 @@
+files extension for X.509 certificate stored in binary file:.cer
+file extension for Personal Information Exchange Syntax Standard (based on PKCS12):.P12
+standard that defines the file format for storing & transporting a user's private keys with public key cert:personal information exchange syntax standard
+file extension for Cryptographic Message Syntax Standard (based on PKCS7):.P7B
+(ACRONYM) CMSS:cryptographic message syntax standard
+standard that defines the generic syntax for defining digital signature & encryption:cryptographic message syntax standard
+(ACRONYM) AH:authentication header
+IPSec protocol that authenticates that packets received were sent from the source:authentication header
+information service that provides credentialing by block cipher mode of operation:authentication mode of operation
+how block ciphers handle blocks of ciphertext by using symmetric key block cipher algorithm:block cipher mode of operation
+(ACRONYM) CER:canonical encoding rules
+an X.509 encoding format:canonical encoding rules
+fields in X.509 dig cert used when parties negotiate secure connection:certificate attributes
+(ACRONYM) CA:certificate authority
+entity responsible for digital certificates:certificate authority
+linking several certs together to establish trust between all certs involved:certificate chaining
+(ACRONYM) CRL:certification revocation list
+list of cert serial numbers that have been revoked:certification revocation list
+(ACRONYM) CSR:certificate signing request
+user request for a digital certificate:certificate signing request
+named combo of algorithms that are used with TLS and SSL:cipher suite
+cert used by software developers to dig sign a program to prove where software came from:code signing digital certificate
+(ACRONYM) CN:common name
+name of the device protected by the dig cert:common name
+(ACRONYM) CTR:counter
+block mode of cipher operation that both the message sender & receiver access a counter which computes a new value each ciphertext block exchanged:counter
+technology used to associate a users ID to a public key that has been dig sign by trusted third party:digital certificate
+(ACRONYM) DER:digital endoing rules
+X.509 encoding format:digital encoding rules
+certificate that verifies the ID of the entity that has control over domain name:domain validation digital certificate
+certificate that allows user to digitally sign and encrypt email:email digital certificate
+(ACRONYM) ESP:encapsulating security payload
+IPSec protocol that encrypts packets:encapsulating security payload
+date of dig certificate when it ceases to function:expiration
+certificate that requires more extensive verification of the legitimacy of the business than doman validation:extended validation certificate
+(ACRONYM) HTTPS:hypertext transfer protocol
+entity that processes CSR and verifies the authenticity of the user on behalf of the CA:intermediate certificate authority
+(ACRONYM) IPSEC:internet protocol security
+protocal suite for securing IP communicationsk:internet protocol security
+process by which keys are managed by a 3rd party (such as CA):key escrow
+administratiom by PKI of all the elements involved in dig cert for mgmt of public keys and dig certs:key management
+certificate used to verify the ID of a device in a network transaction:machine/computer digital certificate
+CA that is not directly connected to network:offline CA
+CA that is directly connect to network:online CA
+(ACRONYM) OCSP:online certificate status protocol
+process that performs a real time lookup of certs status:online certificate status protocol
+(ACRONYM) PFX:personal information exchange
+X.509 file format that is PREFERRED for creating certificates to auth app or websites:personal information exchange
+hard coding a dig cert within a program that is using the certificate:pinning
+(ACRONYM) PEM:privacy enhancement mail
+X.509 file format that uses DER encoding and can have multiple certs:privacy enhancement mail
+(ACRONYM) PKI:public key infrastructure
+underlying infrastructure for the mgmt of public keys used in dig certs:public key infrastructure
+entity that is repsonsible for verifying the cred of the applicant for a dig cert:registration authority
+certificate that is created and verified by a CA:root digital certificate
+(ACRONYM) SRTP:secure real time transport protocol
+protocol for providing protection for VOIP:secure real time transport protocol
+(ACRONYM) SSL:secure sockets layer
+early and now obsolete cryptographic transport algo:secure sockets layer
+(ACRONYM) S/MIME:secure multipurpose internet mail extensions
+protocol for securing email messages:secure multipurpose internet mail extensions
+signed dig cert that does NOT depend on higher-level authority for authentication:self-signed
+attack that manipulates the SLL functions by intercepting an HTTP connection:ssl stripping
+process for verifying status of a cert by sending queries at regular intervals to receive a signed time-stamped response:stapling
+(ACRONYM) SAN:subject alternative name
+AKA Unified Communications Certificate (UCC) primarily used for Microsoft Ex servers:subject alternative name
+(ACRONYM) TLS:transport layer security
+widespread cryptographic transport algorithm that replaces SSL:transports layer security
+IPSEC mode that encrypts only DATA PORTION (PAYLOAD) of each packet, header is UNENCRYPTED:transport mode
+IPSEC mode that encrypts BOTH DATA & HEADER:tunnel mode
+provides a noncredentialing service such as confidentiality by block cipher mode:unauthentication mode of operation
+endpoint of the certificate chain:user digital certificate
+certificate used to validate a main domain along with all subdomains:wildcard digital certificate

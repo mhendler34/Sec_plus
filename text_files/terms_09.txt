@@ -1,0 +1,65 @@
+set of rules attached to device to permit/deny access:access control list
+configuraton in which load balancers are always active:active-active
+configuration in which primary load balancer distributes traffic, secondary load balancer in "listening mode":active-passive
+NAC system that does not require additional software to be installed on endpoints:agentless
+software installed on endpoints to gather info for NAC:agents
+network devices that combine multiple network connections into a single link:aggregators
+IDS creates baseline and compares actions against baseline, deviations raise alarms:anomaly monitoring
+separate hardware device designed to protect entire network:appliance firewall
+switch feature that creats alert when BPDU is received from endpoint:bpdu guard
+firewall monitors websites to create custom filtering profiles:content url filtering
+system of security tools to protect data crucial to organization:data loss prevention
+switch drops unacceptable DHCP traffic:dhcp snooping
+changing normal DNS request to a preconfigured IP pointing to a device that will drop all received packets:dns sinkhole
+private network that can also be accessed by external customers, vendors, partners:extranet
+ficticious data on a honeypot (usage statistics, app crashes):fake telemetry
+hardware/software that is designed to limit spread of malware:firewall
+software that intercepts user requests from INTERNAL network & then processes those requests on behalf of users:forward proxy
+vpn technology in which all traffic is sent to VPN concentrator & is protected:full tunnel
+monitoring technique that uses an algo to determine if a threat exists:heuristic monitoring
+software & data files on a honeypot that appear authentic but are fake:honeyfiles
+network set up with vulernerabilities:honeynet
+computer located in an area with limited security that serves as bait:honeypot
+software that runs on local device to block/filter traffic coming into/outof computer:host based firewall
+system that is directly connected to the network & monitors flow of data:inline
+private network that belongs to an ogr & only accessed by approved internal users:intranet
+minimally configured server within DMZ usesd to connect 2 dissimilar security zones:jump box
+(ACRONYM) L2TP:layer 2 tunneling protocol
+vpn protocol that does NOT offer any encryption, usually paired with IPsec:layer 2 tunneling protocol
+uses IEEE 802.1d (STP) to avert network loop:loop prevention
+creating a copy of original data but making unintelligible any sensitive elements:masking
+(ACRONYM) NAC:network access control
+technology that examines endpoint device before it is allowed to connect to network:network access control
+cloudbased technology that performs NAT for cloud services:network address translation gateway
+special trusted network computer that performs cryptographic operations:network hardware security module
+(ACRONYM) NIDS:network intrusion detection system
+Passive technology that monitors for attacks on the network:network intrusion detection system
+(ACRONYM) NIPS:network intrusion prevention system
+Active techonology that monitors network traffic & reacts to block attacks:network intrusion prevention system
+firewall that has additional functionality (packet filter based on apps):next generation firewall
+using an independent and dedicated channel to reach a device for mgmt purposes:out of band management
+system that is connected to a device that receives a copy of network traffic:passive
+technology on managed switch that copies traffic at designated ports and send traffic to specific port on switch:port mirroring
+technology on managed switch that copies traffic at designated ports and send traffic to specific port on switch:port spanning
+(ACRONYM) TAP:test access point
+device that transmits send/receive data streams to monitoring tool:port tap
+(ACRONYM) QoS:quality of service
+network technologies used to prioritize network traffic:quality of service
+user to LAN vpn connection for remote users:remote access vpn
+proaxy that routes requests from EXTERNAL network to correct internal server:reverse proxy
+the trust of packets sent through a router:route security
+protocols that are used in load balancing to distribute workload amongst devices:scheduling
+monitoring technique that examines network traffic to look for well know patterns, compares aginst predefined signature:signature based monitoring
+VPN connection in which multiple sites can connect to other sites over the internet:site to site vpn
+VPN technology in which only some traffic to sent to VPN concentrator, while other traffic directly access internet:split tunneling
+firewall keeps record of state of a connection between internal computer & external device:stateful packet filtering
+firewall that looks at incoming packets & permits/denies based on specific conditions:stateless packet filtering
+obfuscating sensitive data into random strings of characters & then stores them in a database for retrieval:tokenization
+(ACRONYM) UTM:unified threat management
+integrated device that combines several security functions:unified threat management
+firewall designed for settings where running an appliance firewall would be difficult (cloud):virtual firewall
+IP ADDR & port that can be used to reference different physical servers:virtual ip
+technology that allows users to be grouped (logically) together, even though they may be attached to different switches:virtual lan
+technology that enables the use of uunsecured public network as if it were a private network:virtual private network
+firewall that filters by examining applications using HTTP:web application firewall
+strategic initiative about networks that is designed to prevent attacks by eliminating the concept of trust from org network architecture:zero trust

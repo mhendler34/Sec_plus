@@ -1,0 +1,163 @@
+**CLOUD & VIRTUALIZATION SECURITY**:ok
+National Institute of Standards (NIST) cloud computing definition to follow:ok
+Cloud Computing is a model for enabling convenient, on-demand network access to shared pool of configurable resources tha can be rapidaly provisioned & released with min mgmt effort:ok
+(ACRONYM) CSP:cloud service providers
+Cloud Computing takes a more __ approach to computing resources:flexible
+Cloud Computing allows almost __ array of __, __, __ appliances to be configured as needed:endless servers software network
+Cloud Computing is _-_-_ computing model:pay per use
+As computing needs +/- cloud computing resources can be __ up or down:scaled
+Cloud Computing Advantages to follow:ok
+1.) Consumer makes changes to computing resources without the need for human interactions, _-_ _-_:on demand self serivce
+2.) Virtually any networked device can access computing resouces, universal _ _:client support
+3.) Physical & virtual resources are pooled together, invisible __ __:resource pooling
+4.) Computing resources can immediately be increased or decreased, immediate __:elasticity
+5.) Fees are based on the computing resources used, __ __:metered services
+Cloud Computing Costs Savings are due to the following:ok
+1.) The ability to increase/decrease resources according to requirements, __ & __:elasticity & scalability
+2.) Paying for cloud services when they are used, _-_-_:pay per use
+3.) Cloud services only activated when needed, not part of permanent IT infrastructure, __ __:on demand
+4.) Cloud services can completely isolate the failure of server or storage resources, __:resiliency
+Types of Clouds to follow:ok
+Open to anyone, Services & infrastrucutre are offered to all users with access provided remotely through the internet, __ cloud:public
+Only open to specific organizations that have common concerns, __ cloud:community
+Created & maintained on a private network, __ cloud:private
+Combination of public & private clouds, __ cloud:hybrid
+Cloud Computing Locations to Follow:ok
+Computing resources located on the campus of the organization, __-__:on premises
+Computing resources hosted & supported by 3rd party,(EX) remote backup facility __-__:off premises
+Decentralized computing infrastructure in which data, compute, sotrage are located between data soruce & cloud, (EX) automated vehicles __:fog
+Computing that is performed at or very near to the source of data, (EX) IoT device __:edge
+Remote facility for computing, (EX) AI engine__:cloud
+Cloud Architecture elements to follow:ok
+(ACRONYM) VPC:virtual private cloud
+Computer that runs from resouces stored on central cloud server instead of localized hard drive, __ __:thin client
+AWS technology that allow organizations to connect all existing VPC into single managed source, __ __:transit gateway
+Capacity planning, installation setup & mgmt are all invisible to user, __ __:serverless infrastructure
+__ Essentially means, provisioning deploying & managing a physical server disappear from list of concerns, __:serverless
+Cloud Models to Follow:ok
+Cloud Computing hosted in a software environment, __ as a service:software
+Eliminates the software purchases, installation, maintenance upgrades, patches, __ as a service:software
+Cloud computing centrally manages software per user basis, __ as a service:software
+Platform on which orgs can build their own applications, __ as a service:platform
+Development framework to build, debug & deploy application, __ as as service:platform
+Provides moderate amount of enterprise control over the cloud computing environment, __ as a service:platform
+Provides unlimited "raw" computing, storage & network resources, __ as a service:infrastructure
+The # of cpu processors, memory, storage volume, can be used to build virtual infrastructure, __ as a service:infrastructure
+Describes broad category of subscription services to include any IT function, that can be transformed into a service, __ as a service:anything
+Combined mgmt function of multiple services into a single entity, __ __:services integration
+Attempts to achieve a "boundary-less" approach, __ __:services integration
+Policies that clearly outline who is responsible for cloud computing, duties & responsibilities, __ __:resource policies
+(ACRONYM) MSP:managed service providers
+External 3rd party orgs that provide services of traditional on prem IT organization, _ _ _:managed service providers
+(ACRONYM) MSSP:managed security service providers
+Specialized type of MSP that assumes cybersecurity defenses, _ _ _ _:managed security service providers
+Cloud Security Controls:ok
+Exists to reduce or mitigate threat, __ __:security control
+A __ can be a policy procedure technique method solution, plan, action or device to accomplish goal, __:control
+Controls that are inherent to the cloud computing platforms offered by cloud computing providers, _ _ _:cloud native controls
+Independent examination of cloud service controls, _ _ _:cloud security audit
+An auditor can also review the __ of elements used in the overall infrastructure:integration
+Performed to verify conformance to established standards, __:audits
+Continuous operation of system when critical components fail is called, __ __:high availability
+Reliability & resiliency are achieved through duplicating processes across one or more geographical regions, _ _ _ _:high availability across zones
+Traditional design application, entire program is written as a single entity, is called, __:monolithic
+Dividing monolithic application design into smaller entities, with specialized code elements is called __ __:microservices architecture
+Microservices need to comms amongst themselves, share keys, APIs, certs, pwords, answer is to use, __ __:secrets management
+Enable strong security & improved mgmt of a micro-services based architecture, __ __:secrets management
+Cloud Computing has 3 functional areas, __ __ __:storage network compute
+Each cloud functional area has its own set of security concerns, (OK):ok
+STORAGE, enforce what actions can be taken, control __:permissions
+STORAGE, encrypt data at rest, control __:encryption
+STORAGE, storage multiple copies of critical data across regions, control __:replication
+NETWORK, create secure, encrypted virtual networks, control __ __:virtual networks
+NETWORK, configure VPC with public subnet & private-subnet, contol __ & __ subnets:public private
+NETWORK, Create network segmentation to enforce rules for which services are permitted, control __ :segmentation
+COMPUTE, use security groups to segment computing resources, control __ __:security groups
+COMPUTE, deprovisioning resources when they are no longer needed, _ _ _:dyanmic resource allocation
+COMPUTE, ability for security appliances to differentiate between instances of cloud apps, control __ __:instance awareness
+COMPUTE, attach VPC endpoint policy that controls access to service, control __ __:pvc endpoint 
+**APPLICATION SECURITY**:ok
+Protecting applications is called, __ __:application security
+Set of software tools or services that resides between on-prem infra & CSP infra, _ _ _ _:cloud access security broker
+Acting as a gatekeeper, _ _ _ _, ensure that security policies of enterprise extend to its data in cloud:cloud access security broker
+(ACRONYM) SWG:secure web gateway
+Combines several features into 1 product, _ _ _ :secure web gateway
+Performs DLP, provides alerts, examines incoming/outgoing traffic, _ _ _:secure web gateway
+Virtual Software that functions in a similar manner to physical security appliance by examining traffic in/out of cloud, _ _:cloud firewall
+One is with Cloud Security is lack of cloud __ __ like the OSI:conceptual model
+**VIRTUALIZATION SECURITY**:ok
+managing & presenting computer resources by function w/out regaird to their physical location, is called __:virtualization
+Used to consolidate multiple physical servers into VMs that can run on single computer, __:virtualization
+Virtualization, used extensively in __ __ __:cloud computing environments
+Virtualization, provides __ for __ deployments:flexibility rapid
+VM monitor program is called , __:hypervisor
+More reduced instance of virtualization is called, __:container
+Containers hold only the necessary _ _ components (binaries, libraries) that are needed for specific app to run:operating system
+Containers use less __ & start more __:ram quickly
+Process of running a user desktop inside a VM that resides on a server, __ __ __:virtualization desktop infrastructure
+Advantages of Virtualization:ok
+ADVANTAGE #1, virtual server machines can be __ made available:quickly
+ADVANTAGE #2, resouces such as RAM & hard disk storage can be expanded/contracted as needed ,__ __:host elasticity
+ADVANTAGE #3, instead of purchasing a physical server, a single server can run multiple VMs resulting in significant __ __:cost savings
+ADVANTAGE #4, server virtualization can provide __ server access to user:uninterrupted
+**IAC**:ok
+(ACRONYM) IAC:infrastructure as code
+Instances of virtualization are sometimes referred to as __ __ __:infrastructure as code
+2 examples are software-defined __ & software-deinfed __:networks visibility
+software-defined __ & software-deinfed __:networks visibility
+software-defined __ & software-deinfed __:networks visibility
+(ACRONYM) SDN:software defined network 
+Virtualizes part of the physical network so that it can be more quickly reconfigured, _ _ _ :software defined network
+3 parts of the SDN, __ plane, __ plane & __:control data applications
+All complex networking functions are handled by the __ __:sdn controller
+Framework that allows users to create programs in which critical security functions can be automated, _ _ _:software defined visibility
+SDV relies upon a set of APIs known as __ APIs:RESTful
+RESTful APIs use existing HTTP methods of __ __ __ __:get put post delete
+RESTful APIs have become so foundational that are sometimes called the __ of the __:backbone internet
+Host Virtualization security related advantages:ok
+Latest __ updates can be downloaded & run in VM:security
+A __ of a state of VM can be saved for later use:snapshot
+Testing the existing security configuration, __ __ __ can be performed:security control testing
+VMs can promote security __ & __:segregation isolation
+VMs can be used to test for potential __ & isolated in a __:malware sandbox
+Host Virtualization security related disadvantages:ok
+Not all hypervisors have necessary __ __ to keep out attackers:security controls
+Traditional security tools (antivirus) were designed for physical servers & may not __ well to VMs:adapt
+VMs may be able to "__" from the contained environment & interact with host:host
+Widespread proliferation of VMs without oversight __:sprawl
+**SECURE NETWORK PROTOCOLS**:ok
+(ACRONYM) SNMP:simple network management protocol
+Used to monitor, manage configure network equipment, __:SNMP
+(ACRONYM) DNSSEC:domain name system security extensions
+DNSSEC adds __ __ & __ __ information used to verify requested data has not been altered:resource records message header
+Allowsda resolver to verify the data received came from the zone it claimed to originate from, data __ __:origin authentication
+Proves data has not been modified in transit since it was originally signed, data __ __:integrity protection
+DNSSEC adds 2 important features to DNS protocol, data __ __ & data __ __:origin authentication integrity protection
+(ACRONYM) FTP:file transfer protocol
+UNSECURE protocol to connect to server & transfer files, __:ftp
+(ACRONYM) TFTP:trivial file transfer protocol
+UNSECURE protocol used to transfer configuration files between devices, __:tftp
+FTP uses port __ for control, passing FTP commands:21
+FTP uses port __ for data, data is sent/received:20
+(ACRONYM) FTPS:ftp secure
+Used SSL or TLS to encrypt commands sent over port 21:ftp secure
+(ACRONYM) SFTP:secure ftp
+Uses SSH, to encrypt & compresses all data & commands, __:secure ftp
+(ACRONYM) SMTP:simple mail transfer protocol
+Handles outgoing mail, sends it, __:smtp
+(ACRONYM) POP3:post office protocol
+Responsible for incoming mail, receives it, __:pop3
+(ACRONYM) IMAP4:internet mail access protocol
+Receives incoming mail, more recent & advanced electronic email system:imap4
+remains on the server & NOT downloaded to user's computer, __:imap4
+Email client connects to __ and DOWNLOADS message to user's computer, __:pop3
+(ACRONYM) LDAP:lightweight directory access protocol
+ISO created a standard for directory services known as __:x.500
+X.500 defines a protocol for client application to access X.5000 directory called, __:ldap
+Mkaes it possible for almost any app running virtually to obtain directory information, __:ldap
+By default, LDAP traffic is transmitted in __:cleartext
+LDAP can be made secure using __, which is known as LDAP over __ or __:ssl ssl ldaps
+LDAP is subject to LDAP __ __:injection attacks
+(ACRONYM) SEND:secure neighbor discovery protocol
+Can send cryptographic confirmation that endpoint is who it claims to be, __ __ __ __:secure neighbor discovery protocol
+effectively renders ARP poisoning more difficult, __:send

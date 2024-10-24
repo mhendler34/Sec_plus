@@ -1,0 +1,62 @@
+(ACRONYM) AUP:acceptable use policy
+policy that defines the actions users may perform while accessing system & networking equipment:acceptable use policy
+policy that allows a network admin to create privileges that the users is given based on ROLE-BASED access control schema:access policy
+account settings that audits user connection & events:account audits
+privileges that a user is given:account permissions
+policy that provides guidelines about how assets are acquired, maintained and disposed:asset management policy
+(ACRONYM) BCP:business continuity plan
+strategic document that provides alternative modes of operations for business activities in case of significant loss:business continuity plan
+(ACRONYM) BIA:business impact analysis
+process that identifies business functions & quantifies the impact of loss of these functions may have on business operations:business impact analysis
+policy that stipulates the processes to be followed for implementing system changes:change control policy
+document that defines the types of changes that can be made & under what circumstances:change management policy
+remote site that provides office space, customer must install all equipment needed to continue operations:cold site
+(ACRONYM) COOP:continuity of operation planning
+federal initiative to encourage org to address how critical operations will continue under negative circumstances:continuity of operation planning
+policies that address reqs for authentication credentials, such as password length & complexity:credential policies
+policy that outlines how to assign data type labels to data:data classification policy
+policy that defines who is responsible for data, how it can be accessed, how it should be used etc..:data governance policy
+policy that specifies how long data should be retained after it has fulfilled its purpose:data retention policy
+backup that copies any data changes since last full backup:differential backup
+action by an adminstration to suspend account:disablement
+(ACRONYM) DRP:disaster recovery plan
+document that details the process for restoring IT resources following significant event:disaster recovery plan
+ability to include different tech, 3rd party vendors, controls & cryptographic solutions in BCP:diversity
+disasters such as environmental disasters that are outside the organization:external disasters
+copies entire set of data:full backup
+plan that addresses the steps to be taken to restore processes if necessary:functional recovery plan 
+ability to withstand all outages providing continuous processing for critical applications:high availability
+duplicate production site, ready to be used in the event of a disaster:hot site
+backup that captures the entire contents of the disk to enable restoration of the contents to a new disk:image backup
+analyzing & denying a second user login attempt based on the time & distance of the prior attempt:impossible travel
+backup that copies any data that has changed since last full backup or last incremental backup:incremental backup
+version of the OS that can be rolled back to:last known good configuration
+policy that ensures only the minimum amount of privileges necessary to perform a job should be allocated:least privilege
+(ACRONYM) MTBF:mean time between failure
+average time until a component fails, must be replaced:mean time between failures
+(ACRONYM) MTTR:mean time to repair
+average time for device to recover from a failure that is not a terminal failure:mean time to repair
+technique for creating more than one physical path between devices & SAN:multipath
+(ACRONYM) NAS:network attached storage
+single storage deivce that serves files over the network:network attached storage
+configuring multiple (NIC) network adapters into one or more software based virtual adapters for redundancy & speed:nic teaming
+legal contract that specifies how confidential material will be shared but not disclosed without permission:nondisclosure agreement
+characteristic of a system so that any changes are not saved when the system returns to its original state:nonpersistent
+actions to be taken when an employee leaves an enterprise:offboarding
+actions to be taken when an employee is hired:onboarding
+(ACRONYM) PDU:power distribution unit
+device fitted with multiple eletrical outlets designed to distribute power:power distribution unit
+(ACRONYM) RAID:redundant array of independent disks
+technology that uses multiple hard disk drives for increased performance & reliability:redundant array of independent drives
+(ACRONYM) RPO:recovery point objective
+maximum length of time that an organization can tolerate between backups:recovery point objective
+(ACRONYM) RTO:revoery time objective
+length of time it will take to recover data that has been backed up:recovery time objective
+use of duplicated equipment to improve the availability of the system:redudancy
+copy of a VM that is automatically launched:replication
+practice requiring that processes should be divided between 2 or more individuals:separation of duties
+detailed evaluation of processes performed at a site & how they can be impacted:site risk assessment
+(ACRONYM) SAN:storage area network
+dedicated network storage facility that provides access to data storage over a high-speed network:storage area network
+restrictions regarding limiting when a user can log into their account & access resources:time of day
+user account login that is based on a specific day & time:time based login

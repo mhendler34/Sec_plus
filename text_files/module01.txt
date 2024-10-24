@@ -1,0 +1,35 @@
+class of attacks that use innovative attack tools to extract data over extended period of time, _ _ _:advanced persistent threat
+pathway or avenue used by threat actor to penetrate system, _ _:attack vector
+social engineering principle that involves directing others by impersonating authority figure:authority
+loss that results from making systems inaccessible, _ _:availability loss
+threat actors who violate computer security for personal gain or malicious damage, _ _ _:black hat hackers
+social engineering principle that involves being influenced by what others do:consensus
+using the internet & social media searches to perform reconnaissance, _ _:credential harvesting
+stealing data to disclose it in an unauthorized fashion, _ _:data breach
+stealing data to distribute it to other parties, _ _:data exfiltration
+destruction of data so that it cannot be recovered, _ _ :data loss
+attack vector in which a threat actor can gain direct physical access to a computer, _ _:direct access
+software that is embedded into hardware to provide low-level controls & instructions:firmware
+hackers who break into a system to disclose information and shame the organization into taking action, _ _ _:gray hat hackers
+person who uses advanced computer skills to attack computers:hacker
+group of attackers motivated by ideology:hacktivists
+identity fraud:impersonation
+officially released software update to repair vulnerability:patch
+exploiting how URL is converted into its IP ADDR to redirect traffic away from its intended target to fake webiste:pharming
+sending email or web announcement that falsely claims to be legitimate to trick user into taking action:phishing
+influencing a subject before event occurs:prepending
+using impersonation to obtain private information:pretexting
+individuals who want to perform attacks yet lack technical skills to carry them out, _ _:script kiddies
+employees who become frustrated with the slow pace of acquiring tech, so they purchase their own in violation of company policies, _ _:shadow it
+watching an individual enter a security code on a key pad, _ _:shoulder surfing
+using short message service (SMS) to test messages to perform phishing, _ _:smishing
+unsolicited email that is sent to large number of recipients:spam
+targeting specific users:spear phishing
+spam delivered through (IM) instant messaging instead of email:spim
+following an AUTHORIZED user through a door:tailgating
+purchasing domain names of sites that spelled similarly to actual sites, _:typosquatting
+Telephone call to perform phishing:vishing
+attack directed towards a smaller/specific group of individuals (executives), _ _ _:watering hole attack
+targeting wealthy individuals or senior executives within a business through phishing:whaling
+ethical attackers, have contract to probe an organization for weakness, _ _ _:white hat hackers
+vulnerbility that is exploited by attackers before anyone else knows it exists, _ _:zero day

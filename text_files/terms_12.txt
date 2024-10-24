@@ -1,0 +1,62 @@
+key pair that is "burned" into security key during manufacturing, verify auth, specific to device model:attestation
+proving that user is genuine & not imposter:authentication
+smartphone app that can verify users login attempt:authentication app
+attack where every possible combo of letters, numbers, & characters is used:brute force attack
+unauth duplication of smart card:card cloning
+(ACRONYM) CHAP:challenge handshake authentication protocol
+weak authentication protocol that has been replaced by more secure versions:challenge handshake authentication protocol
+(ACRONYM) CER:crossover error rate
+biometric error rate, where FAR & FRR are equal over the size of the population:crossover error rate
+attack that creates encrypted versions of common dictionary words:dictionary attack
+effectiveness of biometric identifier:efficacy rate
+(ACRONYM) FAR:false acceptance rate
+frequency at which imposters are accepted as genuine when using biometric authentication:false acceptance rate
+(ACRONYM) FRR:false rejection rate
+frequency that legitimate users are rejected when using biometric authentication:false rejection rate
+single sign on for networks owned by different organizations:federated identity management
+biometric identifier that has become the most common type of auth:fingerprint
+(ACRONYM) HOTP:hmac based one time password
+one time password that changes when a specific event occurs:hmac based one time password
+network auth protocol, uses tickets to allow nodes comms over nonsecure network to prove ID to one another in secure manner:kerberos
+pword hashing algo that takes significantly longer to create the digest versus standards algo:key stretching
+using perception, thought processes & understanding for biometric identifier:knowledge based authentication
+hardware security module in a small consumer oriented form factor:microsd hsm
+(ACRONYM) MS-CHAP:microsoft chap
+MSFT version of CHAP:ms-chap
+(ACRONYM) MFA:multifactor authentication
+using more than one typ of authentication credential:multifactor authentication
+(ACRONYM) OAUTH:open authorization
+AUTHORIZATION protocol to allow website access to resources hosted by other web apps on behalf of user:open authorization
+attack in which stolen digest file is loaded onto a computer & cracked:offline brute force attack
+federation technology that provides user authentication information:open id
+attack where the attacker steals the digest of an NTLM pword, pretends to be user by sending hash to system to be auth:pass the hash
+(ACRONYM) PAP:password authentication protocol
+authentication protocol to verify users on PPP networks (weaker than others):password authentication protocol
+hardware based device to store password keys:password keys
+secure repository in which users can store their passwords:password vault
+message displayed on a smartphone through an authentication app:push notifications
+(ACRONYM) RADIUS:remote authentication dial in user service
+networking protocol that provides centralized AAA mgmt for users to connect to network service:remote authentication dial in user service
+large pregenerated data sets of encrypted passwords used in password attacks:rainbow tables
+random string added to hash algo for enhanced security:salt
+(ACRONYM) SAML:secure assertion markup language
+(XML) standard that allows secure web domains to exchange user authentication & authorization data :security assertion markup language
+hardware device inserted into computer port that contains all cryptographix info to authenticate user:security key
+(ACRONYM) SSO:single sign on
+using 1 authentication credential to access multiple accounts:single sign on
+threat actor attaches a small device that fits inside a card reader to capture information:skimming
+card that contains information used as part of the authentication process:smart card
+authentication based on being validated by another person:someone you know
+authentication based on features & characteristics of the individual:something you are
+authentication based on actions that the user can uniquely perform:something you do
+authentication based on genetically determined characteristic:something exhibit
+authentication based on the approved user having specific item in his or her possession:something you have
+authentication based on something the user knows but no one else knows:something you know
+authentication based on where the user is located:somewhere you are
+a value that never changes:static code
+(ACRONYM) TACACS+:terminal access controller access control system
+networking protocol verifies that ID of users accessing network by validating their creds:tacacs
+(ACRONYM) TOTP:time based one time password
+onetime password that changes after set period of time:time based one time password
+small device with window display:token
+hardware device inserted into computer port that contains all cryptographic info to authenticate user:token key

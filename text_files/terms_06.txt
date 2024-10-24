@@ -1,0 +1,43 @@
+procedures based on mathematical formula used to encrypt/decrypt data(algorithm):cipher
+cryptography that uses 2 mathematically related keys:asymmetric cryptographic algorithm
+statistical phenomenon that makes finding collisions easier:birthday attack
+cipher that manipulates an entire block of plaintext at one time:block cipher
+shared, immutable ledger that records transactions and tracking of assets:blockchain
+when 2 files has the same hash:collision
+prfactice of transforming info so that is secure & cannot be understood by unathorized persons:cryptography
+data that is stored on electronic media:data at rest
+data actions being performed by "endpoint devices" (printing):data in processing
+actions that transmit data across a network:data in transit
+process of changing encrypted text into the original text:decryption
+attack in which system is forced to abandon current higher security mode and "fall back" to less secure mode:downgrade attack
+(ACRONYM) ECC:elliptic curved cryptography
+algorithm that uses elliptic curves instead of prime numbers to compute keys:elliptic curved cryptography
+process of changing plaintext into ciphertext:encryption
+measure of randomness of a datagenerating function:entropy
+temporary key that is used once before discarded:ephemeral key
+(ACRONYM) HSM:hardware security module
+removable external cryptographic device:hardware security module
+unique digital fingerprint:hash
+process of creating a unique digital fingerprint:hashing
+ability to quickly recover from resource vs security constraints:high resiliency
+process of sending & recediving secure cryptographic keys:key exchange
+number of bits in a key:key length
+cryptography that has fewer features and is less robust than normal cryptography:lightweight cryptography
+useful lifetime of a serviced of a cipher:longevity
+small amount of time that occurs between when byte is input in cryptographic algo and when output is obtained:low latency
+process of proving that a user performed an action:nonrepudiation
+making something obscure or unclear:obfuscation
+set of sepcfications for SEDs developed by the Trusted Computing Group:Opal
+public keys systems that generate different random public keys for each session:perfect forward secrecy
+cryptographic algos that are secure against quantum computer attacks:post quantum cryptography
+used to secure communication:quantum communication
+computer that relies on quantum physics where qubits can be both 0 & 1 at same time:quantum computer
+"tug-of-war" between available resources and security:resource vs security constraint
+(ACRONYM) SED:self encrypting devices
+drives that can automatically encrypt any data stored on them:self encrypting devices
+hiding the existence of data within another file type, such as a image:steganography
+algo that takes one character and replaces it with one character:stream cipher
+encryption that uses a single key to encrypt and decrypt a message:symmetric cryptographic algorithm
+(ACRONYM) TPM:trusted platform module
+chip on a motherboard that provides cryptographic services:trusted platform module
+compromise security or cause cipher to act in unprediactable ways:weak key

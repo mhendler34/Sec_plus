@@ -1,0 +1,67 @@
+TCP/IP proctocol for determing MAC address based on IP address:arp
+area that separates threats actors from defenders:air gap
+audible warning:alarm
+attack that corrupts arp cache:arp poisoning
+token that indicates wearer is has been approved:badge
+object designed to block traffic:barricade
+vertical post for vehicular traffic barricade:bollard
+device inserted into security slot of portable device to prevent theft:cable loc
+Linux text file manipulation tool to display contents of file:cat
+Linux tool for chaning permissions:chmod
+automated malware analysis system:cuckoo
+Linux command line utility used to transfer data to/from server:curl
+area that separates threat actors from defenders:dmz
+(ACRONYM) DIG:domain information grouper
+linux command line utility used for DNS diagnostics:dig
+(ACRONYM) DDoS:distributed denial of service
+attack that uses many computers to perform a DoS attack:ddos
+attack that infects external DNS server with IP ADDR pointing to malicious sites:dns hijacking
+attack that substitutes DNS addr in local lookup table so that computer is redirected to attackers device:dns poisoning
+kali linux utlity that lists DNS info of a domain:dnsenum
+mapping computer and device names to IP addr:domain name resolution
+attack in which the status of site in manipulated to earn a low domain reputation score:domain reputation
+metallic enclosure that prevents entry/escape of electromagnetic field:faraday cage
+Linux text file tool used for searching keywords:grep
+Linux text file tool used to display first 10 lines of file:head
+layout used to reduce the heat in data center by managing air flow:hot aisle/cold aisle
+Linux utility that sends custom TCP/IP packets:hping
+Linux utility that displays network configuration:ifconfig
+Windows utility that displays network configuration:ipconfig
+Linux tool for adding content to syslog file:logger
+attack spoofs MAC ADDR so thaat switch changes its MAC table to reflect new association of MAC ADDR from attacker:mac cloning attack
+attack where memory of switch is flooded with spoofed packets forcing switch to function like hub & broadcast frames to all ports:mac flooding attack
+series of instructions that can be grouped together as a single command:macro
+(ACRONYM) MITB:man in the broswer
+attack that intercepts comms between browser & computer:man in the browser
+(ACRONYM) MITM:man in the middle
+attack that intercepts traffic to eavesdrop on convo or impersonate of the partcipants:man in the middle
+area designed as an airgap to separate nonsecure area from secure area:mantrap
+sensor that can detect water leaks, dampness or mositure:moisture detection
+sensor that can determine objects change in possition in relation to its surroundings:motion detection
+cameras that records when they detect movement:motion recognition
+vulnerability assessment tool:nessus
+Windows & Linux tool provides info about network connections, statistics, interfaces, routing tables:netstat
+Linux tool for network discovery, scanning ports and services:nmap
+Windows utility used as DNS diagnostic:nslookup
+cryptography library that offers open source applications of TLS protocol:opsenssl
+source of DDoS attack in which endpoints can be programmed & have an IP ADDR:operational technology
+Windows utility that tests connection to each hop:pathping
+Windows & Linux utility that tests reachability of a specific computer:ping
+task automation and configuration mgmt framework from Microsoft:powershell
+system of cable conduits to protect classified information transmitted between 2 secure areas:protected cable distribution
+sensor that detects the prescence of an object when it enters the sensor's field:proximity
+Linux utility that displays & manipulates IP routing tables:route
+tool for using websites to perform port scan:scanless
+attack in which attacker attempts to impersonate the user by using the users session token:session replay
+penetration testing tool:sn1per
+Linux text file tool displaying last 10 lines of file:tail
+command line packet analyzer:tcpdump
+tool for editing packets & replaying the packets back onto network to oberserve behavior:tcpreplay
+Kali Linux utility that proivdes information about email accounts, user names, hostnames & subdomains:theHarvester
+Linux utlity that shows details about the path a packet takes from computer to destination:traceroute
+Windows utility that shows details about the path a packet takes from computer to destination:tracert
+using 2 security guards to prevent a single guard from acting maliciously:two person integrity control
+attack in which user is redirection to another site:url redirection
+(ACRONYM) VBA:visual basic for applications
+An event driven Microsoft programming language:visual basic for applications
+packet capture and analysis tool:wireshark

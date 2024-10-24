@@ -1,0 +1,79 @@
+framework embedded in hardware/software to control access:access control scheme
+record of who accessed the network, what resources, when they disconnected:accounting
+evidence that can hold up to judicial scrutiny:admissibility
+(ACRONYM) ABAC:attribute based access control
+access control schema that uses flexible policies that combines attributes:attribute based access control
+servers that facilitate authentication of entity to access network:authentication servers
+granting permission to take an action (access resources):authentication
+high speed memory that stores recently used info in order to access quickly later:cache
+process that shows evidence was always under strict control:chain of custody
+formalized plan that outlines who needs to be informed of an incident, how & when:communication plan
+dynamically assigning roles to subjects based on a set of rules:conditional access
+incident response plan STEP for limiting damage of incident & isolating impacted systems:containment
+EXPLOITATION framework outlines steps of an attack in end-end process:cyber kill chain
+law requires user notification of data breach:data breach notification law
+principal party for collecting data:data controller
+individual to whom day to day actions have been assigned:data custodian/steward
+person responsible for data:data owner
+(ACRONYM) DPO:data privacy officer
+manager who oversees data privacy & compliance & manages data risk:data privacy officer
+proxy who acts on belhalf of data controller:data processor
+Linux imaging utility used for generating a physical copy:dd
+framework for examining network intrusion events that uses 4 core elements that comprise any event:diamond model of instrusion analysis
+(ACRONYM) DAC:discretionary access control
+access control schema that is least restrictive, owner has total control over objects:discretionary access control
+snapshot of processes that was executed at a specific point in time:dump file
+requests packets used by Internet Control Message Protocol (ICMP):echo
+id, collecting, producing electronically stored info:e-discovery
+Incident response plan STEP, finding cause of incident & temp removing systems that are causing damage:eradication
+models for the thinking & actions of threat actors:exploitation frameworks
+method for protecting files managed by the OS:filesystem permissions
+package of forensic tools:ftk imager
+account not tied to a specific person:generic account
+account given to temporary user:guest account
+Incident response plan STEP to determine whether event is a security indicident:identification
+set of written instructions for reacting to a security incident:incident response plan
+action steps to be taken when a cyber incident occurs:incident response process
+group that is responsible for responding to security incidents:incident response team
+(ACRONYM) IPFIX:ip flow information export
+session sampling protocol that collects IP network traffic as it enters interface, more features than netflow:ip flow information export
+segregating both the attacker & infected systems from reaching other devices:isolation
+Linux utility for querying & displaying log files:journalctl
+mandates data in investigation cannot be modified, deleted or erased:legal hold
+Incident Reponse Plan STEP that for completing incident documentation:lessons learned
+(ACRONYM) MAC:mandatory access control
+access control schema that is most restrictive by assigning users access control according to custodians mandates:mandatory access control
+Linux utility that dumps system memory:memdump
+data that describes information about other data:metadata
+knowledge base of attacker techniques that have been broken down in detail:mitre att&ck
+session sampling protocol feature on Cisco routers that collects IP network traffic as it enters interface:netflow
+multiplatform log mgmt tool that supports various platforms:nxlog
+specific order in which evidence from incident should be examined:order of volatility
+logs that document login attempts, system settings modifications, app or system failures:event logs
+file that contains data moved from RAM to hard drive due to lack of RAM space:pagefile
+Incident Response Plan STEP for equipping IT staff, mgmt, users to handle incidents when they arise:preparation
+strategies for controlling elevated privilege access :privileged access management
+be traced to the very beginning:provenance
+Incident Response Plan STEP for ensuring no threats remain, permitting affected system to return to normal operations:recovery
+how long evidence should be retained for:retention policy
+part of cloud contract that gives the customer the legal right to review logs:right to audit clause
+access control schema based on user's job function in org:role based access control
+(rocketfast) utility for forwarding log messages in an IP network on UNIX devices:rsyslog
+access control schema that can dynamically assign roles to subjects based on set of rules defined by custodian:rule based access control
+series of automated conditional steps that are part of an incident response procedure:runbook
+security enhanced version of android system that uses MAC:seandroid
+account that is created explicitly to provide security for services running on a server:service account
+(ACRONYM) SIP:session initiation protocol
+signaling protocol used to create sessions between participants:session initiation protocol
+packet sampling protocol that gives statistical sampling instead of flow of packets:sflow
+account used by more than one user:shared account
+current state of all settings & data:snapshot
+gathering information about the attacker's strategic intelligence collection capabilities:strategic counterintelligence
+collecting, processing, analysis, of intelligence for forming policy changes:strategic intelligence
+file that contains data moved from RAM to hard drive due to lack of RAM space:swap file
+(rocketfast) forwarding log messages in an IP network on UNIX devices:syslog
+UNIX utility that includes content filtering:syslog-ng
+monthly 30 min discussion of scenario:tabletop
+amount of time +\- to UTC to arrive at current actual time:time offset
+approved identity between user & endpoint:user account
+hexadecimal editor that can used for forensics:winhex

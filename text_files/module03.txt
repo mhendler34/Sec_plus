@@ -1,0 +1,43 @@
+attack that targets vulnerabilities in api, _ _ _ _:application program interface attack
+(ACRONYM) API:application program interface 
+malware that gives access to computer which circumvents any normal security protections, __:backdoor
+infected computer placed under control of an attacker for the purposes of launching attacks, __:bot
+attack occurs when a process attempts to store data in RAM beyond boundaries of fixed-length storage buffer, _ _:buffer overflow
+structure that sends instructions to infected computers, _ _:command control
+(ACRONYM) CSRF: cross site request forgery
+attack that takes advantage of an authentication "token" sent to web browser to imitate the identify of victim, _ _ _ _:cross site request forgery
+(ACRONYM) XSS:cross site scripting
+attack that takes advantage of a website that accepts user input without validating it, _ _ _:cross site scripting
+malware that encrypts all the files on a device until ransom is paid, __:cryptomalware
+attack that alters the device driver from its normal functions, _ _ _:device driver manipulation
+(ACRONYM) DLL:dynamic link library
+attack that inserts code into a running process through a DLL to cause the program to function differently, _ _:dll injection
+programming error that does not properly trap an error condition, _ _:error handling
+markup language designed to store information, _ _ _:extensible markup language
+malware that takes advantage of native services & processes part of the OS to avoid detection, _ _:fileless virus
+programming error that does not filter or validate user input to prevent malicious action, _ _ _:improper input handling
+attacks that introduce new input to exploit a vulnerability, __:injections
+attack that changes the value of a variable to something outside the range, _ _ _:integer overflow attack
+hardware or software that silently captures & stores each keystroke on a keyboard, __:keylogger
+computer code that lies dormant until a specific logical event triggers it, _ _:logic bomb 
+malicious software that enters a computers system without the user's knowledge, __:malware
+programming error where memory is not freed when the program has finished using it, _ _:memory leak
+a flaw that results in a pointer given a NULL value instead of a valid value, _ _:point/object derefence
+(ACRONYM) PUPS:potentially unwanted programs
+software that users do not want on their computer, _ _ _:potentially unwanted programs
+situation that occurs when 2 concurrent threads of execution access a shared resource simultaneasouly, _ _:race condition
+malware that prevents a user's endpoint from functioning properly until fee is paid, __:ransomware
+changing design of code, __:refactoring
+(ACRONYM) RAT:remote access trojan
+malware that infects computer like a trojan, but uses specially configured communication protocols, _ _ _:remote access trojan
+attack that copies data and then uses it for an attack, __:replay
+attack that depletes parts of memory & interferes with RAM to give attacker access to OS, _ _ _:resource exhaustion attacks
+malware that can hide its presence on the computer, __:rootkit
+(ACRONYM) SSRF: server side request forgery
+attack that takes advantage of a trusting relationship between web servers, _ _ _ _:server side request forgery
+adding small coding library that intercepts calls made by a device & changes parameters passed between device & driver:shimmming
+tracking software that is deployed without consent or control of user, __:spyware
+attack that inserts statements to manipulate a database server using sql commands, _ _:sql injection
+executable program that masquerades as performing a benign activity but also does something malicious, __:trojan
+malicious program that uses a computer network to replicate, __:worm
+attack that inserts statements to manipulate a database server using xml, _ _:xml injection

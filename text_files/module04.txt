@@ -1,0 +1,112 @@
+(ACRONYM) IOC:indicator of compromise
+(ACRONYM) KRI :key risk indicator
+_ _ _ shows that malicious activity is occurring:indicator of compromise
+KRI exceeding normal bounds could be (but not always) an _ _ _:indicator of compromise
+helps determine where/when attack may occur, helps discovering an attack before it occurs, _ _:predictive analysis
+open source threat intelligence information that is freely available is called, _ _ _:open source intelligence
+OSINT is often collected/dissseminted through _ _ _ _:public information sharing centers
+(ACRONYM) AIS:automated indicator sharing
+alternative to sharing intel information instead of email comms, _ _ _:automated indicator sharing
+enables the exchange of cyberthreat indicators through computer-computer comms, _ _ _:automated indicator sharing
+2 Tools facilitate Automated Indicator Sharing (AIS), __ & __:stix taxii
+(ACRONYM) STIX :structured threat information expression
+(ACRONYM) TAXII:trusted automated exchange of intelligence information
+language & format used to exchange cyberthreat intelligence, _ _ _ _:structured threat information expression
+application protocol for exchanging cyberthreat intelligence over HTTPS, _ _ _ _:trusted automated exchange of intelligence information
+Sources of Threat Intelligence, __ databases, __ maps, _ & _ repositories, __ web:vulnerability threat file code dark
+repository of known vulnerabilites & how they have been exploited, _ _:vulnerability databases
+illustrates cyberthreats overlaid on a diagrammatic representation, _ _:threat maps
+The web has __ levels:3
+the __ web, which includes ordinary websites that most users regularly access:clear
+the __ web, which includes exclusive & protected websites that cannot be access without credentials:clear
+the __ web, beyond the reach of normal search engines but is domain of threat actors:dark
+Securing endpoint computers involves __ major tasks, they are _ _ _:3
+Task 1, __ that the computer has started securely:confirming
+Task 2, __ the computer from attacks:protecting
+Task 3, __ the computer for even greater protection:hardening
+(ACRONYM) BIOS:basic input output system
+(ACRONYM) POST:power on self test
+(ACRONYM) UEFI:unified extensible firmware interface
+First, BIOS would test various components of the computer called, _ _ _ _:power on self test
+Second, BIOS would reference the _ _ _ that specified the _ _:master boot record partition table
+Third, the partition table instructed the BIOS where the __ was located:kernel
+Finally, BIOS pass control to the install _ _, which launched the kernel:boot loader
+boot security involves validating each element used in each step of boot process has not been modified (T/F):true
+each element relies on the confirmation of the previous element to know that the entire process is secure, _ _ _:chain of trust
+security checks are rooted in hardware, known as, _ _ _ _:hardware root of trust
+the process of determing the boot process is valid is known as, _ _:boot attestation
+all system firmware, bootloaders, kernels are validated, __ boot:secure
+takes over where secure boot left off (req MSFST), __ boot:trusted
+provides highest degree of security, __ boot:measured
+_ _ _ standard, ensure that computer boots using software that is trsuted by the computer manufacturer:secure boot security
+#2, PROTECTING ENDPOINTS, 5 ways to protect endpoints, _ software, _, _ cookies, _ headers, _ & _ systems:antivirus antimalware secure http monitoring response
+software that examines a computer for file-based virus, _:antivirus
+suite of software to protect against multiple types of malware, _:antimalware
+storing user-information in a file on the user's local computer & retrieve it later, is _:cookie
+__ - __ cookies can be stolen & used to impersonate a user:first party
+__ - __ cookies can track the browsing or buying habits of user:third party
+this cookie is only sent to the server with an encrypted request over secure HTTPS protocol, _ _:secure cookie
+When a user vists a website, the web server responds back with a _ _ _:http response headers
+(ACRONYM) HSTS:http strict transport security
+_ _ _ _, forces browser to comms over more secure HTTPS instead of http:http strict transport security
+encrypts transmission to prevent unauthorized user from intercept, _ _ _ _:http strict transport security
+(ACRONYM) CSP :content security policy
+_ _ _, restricts resources a user is allowed to load within website:content security policy
+protects against injection attacks, _ _ _:content security policy
+(ACRONYM) X-Xss:cross site scripting protection
+_ _ _ _, prohibits page from loading if it detects XSS attack:cross site scripting protection
+prevents cross site scripting (XSS) attacks:cross site scripting protection
+_ _ _, prevents attacks from overlaying their content on the webpage:x frame options
+foils a threat actor's attempt to trick user into providing personal information:x frame options
+monitoring & response systems, _ _ _:ids ips edr
+software that can detect when attack occurs (passive), _ _ _:intrusion detection system
+software that can detect when attack occurs & take action, _ _ _:intrusion prevention system
+software consdiered more robust the IDS/IPS, aggregate data, _ _ _:endoint detection response
+#3 HARDENING ENDPOINTS, __ management & __ protections:patch os
+effective patch management involves 2 types of tools, __ distribution & __ reception:patch patch
+Security Configuration of an OS includes the following:ok
+1.) __ unnecessary __ & __:disabling ports services
+2.) __ default __ & __:disabling accounts passwordss
+3.) Employing principle of __ __:least privilege
+Confinement tools can be used to restrict malware, such as, application _/_, _, _:whitelisting/blacklisting, sandbox, quarantine
+list of approved applications to run on the OS, _:whitelisting
+list of unapproved application, _:blacklisting
+"container" to run an application in that does not impact underlying OS, _:sandbox
+process that holds a suspicious document is called, _:quarantine
+attack that allows movement from root directory to other restricted directories, _ _:directory traversal
+Application development includes the following stages (ok):ok
+__ stage, reqs for application are established & confirmed that app meets business needs:development
+__ stage, thoroughly tests the application for any errors that could result in security vulnerability:testing
+__ stage, tests to verify that the code functions as intended:staging
+__ stage, application is released to the wild:production
+removing resource that is no longer needed, _:deprovisioning
+"attestation mechanism" to convince external team that app is running only set of known & approved executables, _ _:integrity measurement
+SecDevOps 2 models, __ & __:waterfall agile
+__ model, uses sequential design process, each stage is completed & then move to next stage:waterfall
+__ model, takes an incremental approach, designed to overcome limitations in waterfall model:agile
+Using agile model, process of integrating secure developemnt best practices into application development, __:secdevops
+SecDevOps is promoted for its __ & __:elasticity scalability
+flexibility or resiliency in code development is called, __:elasticity
+expandability from small projects to large projects is called, __:scalability
+SecDevOps also applies, __:automation
+SecDevOps methodology includes __ systems, _ as _, _:immutable infrastructure code baselining
+__ __, once a configuration is employed as part of application, it is not modified:immutable systems
+_ _ _, managing hardware & software infrastructure using same principles as developing code:infrastructure as code
+creating a starting point for comparison purposes in order to apply targets & goals to measure against:baselining
+SECURE CODING TECHNIQUES(ok):ok
+1.) accounting for errors such as incorrect user input, _ _ _:proper input validation
+1a.) proper input validation can prevent _ _ _ & _ _ _ _:cross site scripting cross site forgery request forgery 
+2.) organizing data within database to minimize redundancy:normalization
+2a.) nomalization reduces __ of __ exposed to attackers:footprint data
+3.) subroutine available to applications that access relational database, _ _:stored procedure
+3a.) stored procedure eliminates the need to write a __ that could have __:subroutine vulnerabilities
+4.) digitally signing applications, _ _:code signing
+4a.) code signing confirms that code has not been __:corrupted
+5.) writing application in a way that hides its inner functionality from outside, _ _:camouflaged code
+6.) section of application that executes but performs no meaningful function, _ _:dead code
+7.) input validation that uses the server to perform that validation, _ _ _ _:server side execution validation
+8.) input validation that is performed by the user's web browser, _ _ _ _:client side execution validation
+analysis & testing of software that should occur before source code is compiled, _ _ _:static code analysis
+analysis & testing of software after source code is compiled, _ _ _:dynamic code analysis
+some of the most common dynamic code analysis tools use a process called, __:fuzzing
+__ provides random input to a program in an attempt to trigger exceptions:fuzzing

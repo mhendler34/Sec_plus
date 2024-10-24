@@ -1,0 +1,61 @@
+service for authentication, authorization, encryption, availability, compliance of APIs:api inpsection and integration
+remote facility for computing:cloud
+(ACRONYM) CASB:cloud access security broker
+set of software tool or services that resides between on-prem and cloud infrastructure:cloud access security broker
+on demand infrastructure to shared pool of resources, rapidly provisioned & released:cloud computing
+cloud security controls inherent to cloud platforms, offered to customers:cloud native controls
+independent examination of cloud service controls:cloud security audit
+(ACRONYM) CSP :cloud service providers
+type of cloud only open to specific orgs with common concerns:community cloud
+more reduced instance of virtualization:container
+database stored on the network containing info about users & network devices:directory service
+(ACRONYM) DNSSEC:domain name system security extensions
+Protocol that adds additional resource records & message header information for improved security:dnssec
+deprovision computing resources when they are no longer needed:dynamic resource allocation
+computing that is performed at or very near the source of data instead of relying on the cloud or on prem for processing:edge
+(ACRONYM) FTP:file transfer protocol
+unsecure TCP/IP protocol for transferring files:file tranfer protocol
+(ACRONYM) FTPS:file transfer protocol secure
+using SLL or TLS to encrypt commands sent over control port in FTP session:FTP secure
+decentralized computing infrastructure where data, storage, apps are located between data source & cloud:fog
+using multiple geographic cloud zone & regions to provide reliability & resiliency:high abvailability across zones
+Combination of public and private clouds:hybrid cloud
+(ACRONYM) IMAP:interm mail access protocol
+ability for security appliances to differentiate between instances of cloud apps:instance awareness
+attacks, similar to SQL injections that occur when user input is not properly filtered in an LDAP session:ldap injection attacks
+(ACRONYM) LDAP:lightweight directory access protocol
+(ACRONYM) MSSP:managed security service provider
+specialized type of managed service provide (MSP) that can assist with cybersecurity defenses of an org:managed security service provider
+(ACRONYM) MSP:managed service provider
+entity that delivers services (network, app, infrastructure) & administration of those resources:managed service provider
+specialized APIs based on microservices architecture:microservices api
+specialized elements, each of which manages its own database, gens it own logs, handle user auth:microservices architecture
+(ACRONYM) SWG:secure web gateway
+virtual cloud device that combines several features into a single product:next generation secure web gateway
+computing resources hosted by 3rd party:off premises
+computing resources located on campus of organization:on-premises
+conceptual model that illustrates network functionality:osi
+cloud computing model where users can build their own applications & then host them:platform as a service
+(ACRONYM) POP:post office protocol
+type of cloud created and maintained on private network:private cloud
+VPC for backend servers that are not publicly accessible:private subnet
+cloud type where services & infrastructure are offered to all users:public cloud
+VPC with a subnet for publicfacing web server applications:public subnet
+process that enables strong security & mgmt of microservices based architecture:secrets management
+(ACRONYM) SFTP:secure file transfer protocol
+protocol that encrypts & decompresses all FTP data:secure ftp
+Segmented computing resources formed into logical groups that create network perimeters:security groups
+cloud infrastructure in which planning, installation, mgmt are invisble to user b/c they are handle by cloud provider:serverless infrastructure
+(ACRONYM) SMTP:simple mail transfer protocol
+protocol for sending mail:smtp
+(ACRONYM) SNMP:simple network management protocol
+protocol used to manage network equipment:snmp
+cloud model of hosted software environment:software as a service
+(ACRONYM) SDN:software defined network
+network that virtualizes parts of the physical network so that is can be configured quicly & easily:sdn
+(ACRONYM) SDV:software defined visibility
+framework that allows users to create programs in which critical security functions can be automated:sdv
+computer that runs from resources stored on central cloud server instead of localed hard drive:thin client
+AWS technology that allows organizations to connect all existing VPC, data centers, into single managed source:transit gateway
+preventing VMs from directly interacting with host operating system:virtual machine escape protection
+means of managing & presenting computer resources by function without regard to their physical location:virtualization

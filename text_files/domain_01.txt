@@ -1,0 +1,68 @@
+___ Control actively responds to an incident, fixes it & prevents it from happening:corrective
+Antivirus software is an example of a ___ control:corrective
+___ Control actively restores the functionality of systems via alternative methods:compensating
+Backup is an example of a ____ control:compensating
+___ Control implementation occurs in OS, software and security appliances:technical
+ACL, IDS or IPS are examples of ____ controls:technical
+___ Control actively shapes behavior through policies, procedures & guidance:managerial
+Risk ID tool, Fair Use Policy is an example of ___ control:managerial
+___ Controls oversee system informaion & aid in selecting & implementing other security controls:managerial
+___ Control are primarily human-centric, focus on procedures & responsibilities to maintain security:operational
+Employee cybersecurity training is an example of ___ control:operational
+___ Controls manage access to premises & hardware, often incurring higher implementation & maintenace costs:physical
+Installing building access control systems is an examples of ___ control:physical
+Strong password policies, IDS, updating antivirus software are examples of __ controls:preventive
+IDS is an example of a __ control:detective
+__ Control characterizes a tangible item, preventing or detecting unauth access to physical spaces, systems & assets:operational
+__ Control identifies when incidents or vuln have occurred:detective
+Auditing & monitoring are examples of __ controls:detective
+__ Controls actively respond to an incidient, fixes it, & prevents it from happening again:corrective
+__ control psychologically discourages an attacker from attempting an intrusion:deterrent
+A warning sign is an example of a __ control:deterrent
+__ Control physically or logically restricts unauthorized access:preventive
+Password, biometric authentication or physical door lock are examples of __ controls:preventive
+__ Control may not prevent access, but it will ID & record any attempted intrusion:detective
+Security Cameras are an example of a ___ control:detective
+__ systems focus on verifying the ID of a system or user, ensuring it is trustworthy:authenticating
+__ involves ensuring that a party involved in communication cannot deny the authenticity of their signature on a document:nonrepudiation
+Mimics real systems or applications as a decoy system, __:honeypot
+Contains false credential, login credentials, or other data types to distract attackers:honeytoke
+__ is a fake file that appears to containg sensitive information to bait attackers:honeyfile
+__ is a network of interconnected honeypots that simulate an entire network:honeynet
+_ _ is a security concept that orgs should not automatically trust anything inside or outside its perimeters:zero trust
+Neither party can deny the authenticity of the data sent __:nonrepudiation
+_ _ is a contingency plan for reversing changes & returning systems to original state:backout plan
+_ _ is a predefined, recurring time frame for implementing changes, but does not test changes:maintenance window
+_ _ assesses the potential implications of a proposed change but does not tesst the changes:impact analysis
+_ _ _ is a policy defining acceptable behavior by users regarding network & computer systems:acceptable use policy
+_ _ _ is a policy that is broad & covers guidlines related to information security within the organization, including data privacy:information security policy
+_ _ _ is a policy that focuses on recovering from catastrophic events or disruptions:disaster recovery policy
+_ _ _ is sa policy outling customer data handling to maintain compliane with relevant laws & data privacy protection:data privacy policy
+__ (public/private) key encrypts sensitive data by clients:public
+__ (public/private) key decrypts it on servers, ensuring only authorized parties can access:private
+__ (public/private) key relates to encryption:public
+__ (public/private) key relates to decryption:private
+_ _ _ is a cryptoprocessor implemented as a module with the CPU on a computer:trusted platform module
+_ _ _ is a cryptoprocessor that implements hardware through a removable form factor, such as a plug-in:hardware security module
+(ACRONYM) PCIe:peripheral component interconnect express
+_ _ _ is a list that provides a summation of all revoked & suspended certificates:certificate revocation list
+Framework that establishes trust using public key cryptography to sign & encrypt messages via digital signatures _ _ _:public key infrastructure
+Establishes trust in digital certificates & cryptographic operations _ _ _:root of trust
+(ACRONYM) OSCP:online certificate status protocol
+Protocol that verifies the validity of digital certificates, _ _ _ _:online certificate status protocol
+Root of trust is not part of the OSCP itself (T/F):true
+_ _ actively verifies the authenticity & integrity of the certificates they issues:certificate authority
+Involves securely storing a copy of private key with trusted 3rd party for recovery & availability, _ _:key escrow
+(longer/shorter) key lengths provide stronger security for digital signatures by making it more difficult for attackers to forge:longer
+(longer/shorter) key lengths are more computationally efficient for signature verification:shorter
+(longer/shorter) key lengths actually weaken the security of digital signatures:shorter
+_ certificates streamline the cert deployment process & simplify ongoing maintenance tasks, --> improved oerational efficiency:wildcard
+_ _ certificates lack the trust & validation provided by a reputable CA:self signed
+_ _ is a mechanism to ensure trust is specific certificates but not specifically designed to manage multiple subdomains:certificate pinning
+__, replacing all or part of the value of a database field w/randomly generated token:tokenization
+_ _ occurs when a user redacts all or part of the contents of a database field by substituting the string, "x" in it place:data masking
+_, is a cryptography hash method where user hashes data for a pword & system cannot decrypt it back to plaintext:salting
+__ occurs when a users embeds information within an unexpected source, like an image:steganography
+Algorithms that generate a fixed size output, represents input data & unique to each input:hashing
+hashing algorithms do not relate to encryption but rather __ __ verification:data integrity
+enhances security by providing an isolated environment for executing sensitive operations & protecting critical data, _ _:secure enclave

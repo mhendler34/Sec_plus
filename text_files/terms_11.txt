@@ -1,0 +1,57 @@
+WLAN functioning without an AP:ad hoc mode
+original frequency range of transmission before it is converted to different freq:baseband
+attack that sends unsolicited messages to Bluetooth-enabled devices:bluejacking
+attack that access unauthorized info from wireless device through Bluetooth connection:bluesnarfing
+wireless tech that uses short range RF transmission, provides rapid ad hoc pairings:bluetooth
+web page that users interact with before gaining access to wifi or network:captive portal ap
+channel frequency overlaps in wifi network:channel overlays
+(ACRONYM) CBC-MAC:cipher block chaining message authentication code
+component of CCMP that provides data integrity & authentication:cipher block chaining message authentication code
+AP that is managed through dedicated wireless LAN controller (WLC):controller ap
+(ACRONYM) CCMP:counter mode with cipher block chaining message authentication code protocol
+encryption protocol used for WPA2, uses general purpose cipher mode algo, with AES:counter mode with cipher block chanining message authentication code protocol
+wireless attack where deauth frames are sent to AP that appear to come from another client, causing client to disconnect:disassocation attack
+(ACRONYM) EAP-FAST:extensible authentication protocol flexible authentication via secure tunneling
+EAP that securely tunnels any credential form for auth (password or token using TLS):eap-fast
+(ACRONYM) EAP-TLS:extensible authentication protocol transport layer security
+EAP that uses digital certificates for authentication (gold standard for network auth):eap-tls
+(ACRONYM) EAP-TTLS:extensible authentication protocol tunneled tls
+EAP that securely tunnels client password authentication with TLS records:eap-ttls
+Authentication for the WPA2 enterprise model:enterprise method
+attacker AP mimics an authorized AP to users will unknowingly connect to attacker AP:evil twin
+(ACRONYM) EAP:exntesible authentication protocol
+framework for enforcing various authentication methods across network security landscapes:extensible authentication protocol
+provides visual representation of wireless signal coverage and strength:heat map
+(ACRONYM) IEEE 802.1x:port based network access control
+port based authentication:ieee 802.1x
+(ACRONYM) IV:initialization  vector
+24-bit value that changes each time a packet is encrypted:initialization vector
+flooding the RF spectrum with extraneous RF signal that creates interference & prevents comms:jamming
+method for controlling access to WLAN based on device's MAC address:mac address filtering
+(ACRONYM) NB-IoT:narrowband internet of things
+low power wide area network (LPWAN) technology standard:narrowband internet of things
+(ACRONYM) NFC:near field communication
+communication between devices in very close proximity:near field communication
+wirless network mode in which no authentication is required:open method
+network topology where one device is connected to multiple devices:point to multipoint
+network topology where one device is connected to one other device:point to point
+(ACRONYM) PSK:preshared key
+authentication model used in WPA that requires a secret key to be entered into AP prior to communicating:preshared key
+(ACRONYM) PEAP:protected extensible authentication protocol
+EAP method designed to simplify deployment of 802.1x by using MSFT logins & passwords:protected EAP
+(ACRONYM) RFID:radio frequency identification
+wireless standards used to transmit information from tags to proximity reader:radio frequency identification
+unauthorized AP that allows attacker to bypass network security config & open network to attackers:rogue ap
+(ACRONYM) SAE:simultaneous authentication of equals
+component of WPA3, increase security @ time of handshake when key is being exchanged of:simultaneous authentication of equals
+in-depth examination & analysis of WLAN site:site survey
+(ACRONYM) SIM:subscriber identity module
+inegrated circuit that securely stores info used to ID & authenticate IoT device on cellular network:subscriber identity module card
+software tool that helps to visial details of wireless network:wifi analyzer
+Wi-Fi Alliance implementation of WLAN ad hoc mode:wifi direct
+(ACRONYM) WPA2:wifi protected access
+2nd gen of WPA security, addresses authentication & encryption on WLANs, most secure model in WIFI security:wifi protected access 2
+(ACRONYM) WPS:wifi protected setup
+optional means of config security on wireless LAN, for users with little knowledge of security setup:wifi protected setup
+current gen of WPA whose goal is to simplify security config & enhance security protections:wpa3
+low power, short range, low data rate designed for signal transmission from sensor or IoT:zigbee

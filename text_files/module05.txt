@@ -1,0 +1,83 @@
+(ACRONYM) BYOD:bring your own device
+Description, employees use their own mobile device for business purposes:byod
+Employee actions, Employees have full responsiblity for choosing & supporting device:byod
+Business actions, popular with smaller companies or those with temp staff:byod 
+(ACRONYM) COPE:corporate owned personally enabled
+Description, employees chose from selection of company approved devices:cope
+Employee actions, employees can use company provided device for work & also personal activities:cope
+Business actions,company decides the level of choice & freedom for employees:cope
+(ACRONYM) CYOD:choose your own device
+Description, employees chose from company approved selection, but pay upfront cost:cyod
+Employee actions, employees offered suite of company approved choices for security, reliabilit:cyod 
+Business actions, company often provides stiped to pay monthly fees to wireless carrier:cyod
+(ACRONYM) VDI:virtual desktop infrastructure
+Description, stores sensitive apps & data on remote server access through smartphone:vdi
+Employee actions, users can customize display of data:vdi
+Business actions, enterprise can centrally protect & manage data & apps on server:vdi
+**Mobile Device Vulnerabilities**:ok
+greatest asset of mobile device, __, is also greatest vulnerability:portability
+security patches & updates for mobile devices are distributed through _ _ _ _:firmware over the air
+__ or identifying the geographical location of the device:geolocation
+a related risk to geolocation, __, which adding geographical id data to media such digital photos over mobile:geotagging
+connection description, __, device with internet can be used to share connection with other mobile devices:tethering
+connection vulnerability, with __, an unsecured mobile device may infect other tethered mobile devices:tethering
+connection description, _ _ _ mobile device w/USB can function as host or peripheral:on the go
+connection vulnerability, connecting a malicious _ _ with infected malware:flash drive
+connection description, malicious USB __, could be embedded with Wi-Fi controller to receive commands:cable 
+connection vulnerability, device will recognize as the cable giving the attacker enough _ to exploit the system:permissions
+connection description, __, location where users can access the internet with wireless signal:hotspot
+connection vulnerability, public hotspots are beyond control of org, attackers can __ on data:eavesdrop
+circumventing built in limitations on Apple iOS, _:jailbreaking
+circumventing built in limitations on Andrioid devices, _:rooting
+_ _, cell phones were connected to a specific wireless carrier so that neither phone nor number could be transferred to another carrier:carrier locking
+(ACRONYM) SMS:short message service
+text messages of max 160 characters:sms
+(ACRONYM) MMS:multimedia message service
+allows text message to include pictures, video, audio:mms
+(ACRONYM) RCS:rich communicaton service
+__ can convert a texting app into a live chat platform & supports pics, videos, location sticker:rcs
+(ACRONYM) QR code:quick response
+protect mobile access via 3 ways, _ _ _:passcode pin fingerprint
+_ _ _, mobile device configuration that auto unlocks & stays unlocked until a specific action occurs:context aware authentication
+Android smart lock configurations, on-body __, trusted __, trusted __, trusted __, trusted __:detection places devices face voice
+encryption of each file with a different key, _ _ _:file based encryption
+separating business data from personal data, _ _:storage segmentation
+(ACRONYM) MDM:mobile device management
+tool that allows device to managed remotely by org, _ _ _:mobile device management
+(ACRONYM) MAM:mobile application management
+tools & services responsible for distributing & controlling access to apps, _ _ _:mobile application management
+(ACRONYM) MCM:mobile content management
+system is tuned to provide content management to many mobile devices used by employees, _ _ _:mobile content management
+(ACRONYM) UEM:unified endpoint management
+all of the capabilities in MDM, MAM, MCM can be supported by _ _ _:unified endpoint management
+group of software tools with single management interface for mobile & computer devices, _ _ _:unified endpoint management
+Computer hardware or software contained within larger system designed for specific functions, _ _:embedded system
+(ACRONYM) FPGA:field programmable gate array
+hardware chip that can be programmed by the user to carry out logical operations, _ _ _ _:field programmable gate array
+(ACRONYM) SoC:system on a chip
+combines all required electronic circuits of various computer components, _ _ _ _:system on a chip
+(ACRONYM) RTOS:real time operating system
+OS designed for a SoC in an embedded or specialized system, _ _ _ _:real time operating system
+tuned to accommodate high volumes of data that must be immediately procesed for critical decision making, _ _ _ _:real time operating system
+Several types of _ _ are designed for specific applications:specialized systems
+specialized systems include _ meters, medical _, _ _:smart systems aircraft vehicles
+(ACRONYM) ICS:industrial control systems
+collect, monitors process real-time data so machinces can directly control devices, such as valves, pumps, _ _ _:industrial control systems
+(ACRONYM) SCADA:supervisory control and data acquisition
+ICS are managed by larger __ systems:scada
+global infrastructure for information society enabling advanced services by interconnecting things, _ _ _:internet of things
+(ACRONYM) BAN:body area network
+network system of IoT devices in close proximity to a person's body for the benefit of the user, _ _ _:body area network
+(ACRONYM) MBSN:managed body sensor network
+sensors placed on body to monitor EKG transmitted to a physician to make decisions, _ _ _ _:managed body sensor network
+(ACRONYM) ABSN:autonomous body sensor network
+instead of reading/transmitting data, _ _ _ _ introduces actuators to take immediate action:autonomous body sensor network
+Security Constraints fo Embedded & specialized systems:ok
+Sec constraint 1, __, to prolong battery life, systems are optimized to draw very low power & lack ability to perform strong security:power
+Sec constraint 2, _, due to size, small devices possess low processing capabilities:compute
+Sec constraint 3, _, many devices lack network protocols for advanced security features:network
+Sec constraint 4, _, encryption/decryption are resource intensive that these devices lack:cryptography
+Sec constraint 5, _, to keep costs low, most devices lack:authentication
+Sec constraint 6, _, not all devices have long range capabilities:range
+Sec constraint 7, _, security protections are left out to make devices cheaper:cost
+Sec constraint 8, _ _, devices designed without any security features and operate on this basis:implied trust

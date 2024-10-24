@@ -1,0 +1,171 @@
+**DEFINING DIGITAL CERTIFICATES**:ok
+Asymmetric cryptography has 2 uses, _/_ data or proof to verify _ of the sender:encrypt/decrypt signature
+Electronic verification of the sender, _ _:digital signature
+After creating a document, Bob generates a _ _ on it:hash digest
+Bob then __ the digest with his _ key, which serves as the _ _:encrypts personal digital signature
+Digital Signature Weakness, it can only prove the __ of doc but does not confirm the _ of the sender:owner sender
+Digital Signature only shows the that the _ _ of the sender was used to encrypt the digital signature:private key
+But digital signature does not prove _ the sender was:who
+technology used to associate a user's identity to a public key & has been digitally signed by trusted 3rd party:digital certificate
+A digital certificate is basically a __ for a public key:container
+A digital certificate contains info such as __ name, owner's _ _, name of __, _ _ of issuer:owners public key issuer digital signature
+**CERTIFICATE AUTHORITIES**:ok
+(ACRONYM) CSR:certificate signing request
+information request with name address email is known as _ _ _:certificate signing request
+The user electronically signs the __ by affixing a __ key & sends it to _ _:csr public registration authority
+Party responsible for verifying the credentials of the applicant of Certificate Signing Request, _ _:registration authority
+Once verified, the __ is transferred to a _ _ _:intermediate certificate authority
+The _ _ _ process the _ and issues the _ _:intermediate certificate authority csr digital certificate
+The intermediate CAs performs functions on behalf of the _ _:certificate authority
+Party responsible for digital certificates, _ _:certificate authority
+A common method to ensure the security & integrity of a CA is to keep it __:offline
+The CA is brought __ when needed for specific tasks:online
+**CERTIFICATE MANAGEMENT**:ok
+(ACRONYM) CR:certificate repository
+Publicly centralized directory of digital certificates to view status of digital certificate:certificate repository
+2 Methods to check if a certificate has been revoked, __ or __:crl ocsp
+(ACRONYM) CRL:certificate revocation list
+List of certificate serial numbers that have been revoked, _ _ _:certificate revocation list
+(ACRONYM) OCSP:online certificate status protocol
+Performs real time lookup of a certificate's status, _ _ _ _:online certificate status protocol
+A variation of OCSP is called OCSP __:stapling
+process for verifying status of certificate by sending queries at regular intervals to recieve a time-stamp response, _ _:ocsp stapling
+**TYPES of DIGITAL CERTIFICATES**:ok
+digital certificates can be grouped into borad categories, __, __, __, & __ -:root domain hardware software
+grouping & verifying digital certificates relies on _ _:certificate chaining
+creates a path between ROOT CA (few) and intermediate CA (many) with digital certs that have been issued is, _ _:certificate chaining
+Every entity is signed by the entity that is ID'd by the next higher certified entity in the chain, _ _:certificate chaining
+Digital certificate created & verified by the Certificate Authority, _ _ _:root digital certificate
+B/c CA has no higher authority, root digital certificates are _ _:self signed
+Root digital certificates (do/do not) _ _ depend upon higher level for authentication:do not
+The next level down from the root digital certificate is the _ _:intermediate certificates
+intermediate certificates are issed by _ _:intermediate CA
+The endpoint of the chain is the _ _ _:user digital certificate
+Approved root & intermediate certificates are distributed in 1 of 3 ways:ok
+First, they can be distributed through __ to the __:updates OS
+Second, they can be distributed through __ to the __ browser:updates web
+Third option is __:pinning
+Process by which a digital certificate is hard-coded with the app that is using the certificate:pinning
+Most digital certificates are issued from a __ __ to an __:web server endpoint
+Web server certs serves 2 functions(Ok):ok
+Function 1, web server certs ehsure the _ of the web server to the __:authenticity client
+Function 2, wevb server certs ensure the _ of the _ connection to the web server:authenticity cryptographic
+A _ _ _ _ verifies the identity of the entity that has control over the domain name:domain validation digital certificate
+A domain validation digital certificate verifies who has control of the domain, not the __ of the individuals behind the site:trustworthiness
+An enhanced type of domain digital certificate is the _ _ _:extended validation certificate
+The type of certificate requires more extensive verification of the legitimacy of the business, _ _ _:extended validation certificate
+Used to validate a main domain along with all subdomains, _ _ _:wildcard digital certificate
+(ACRONYM) SAN:subject alternative name  
+(ACRONYM) UCC:unified communications certificate
+_ _ _ also known as a Unified Communications Certificate:subject alternative name
+Certificate allows multiple server or domain names to use the same secure certificate by associating diff values:subject alternative name
+Certificate is primarily used for Microsft Exchange servers or unified communications, _ _ _ or _ _ _:subject alternative name unified communications certificate
+Certificate used to verify identity of device in network transactions, _ _ _:machine digital certificate
+Certificate to digitally prove software comes from the entity that signed it & no 3rd party altered it, _ _ _ _:code signing digital certificate
+Certificate allowes a user to digitally sign & encrypt email messages, _ _ _:email digital certificate
+The standard format for digital certificates is __:x.509
+__ __ are used when parties negotiate a secure connection:certificate attributes
+Certificate attributes include, _ period, _-_identity info, _ keys, _ of issuing CA, & _ _:validity end-host encryption signature
+Name of the device protected by the digital certificate, _ _:common name
+(ACRONYM) CN:common name 
+X.509 certificates can either be contained in _ file with a __ extension or in a __ file:binary .cer base64
+binary to text encoding scheme that represents binary data in ASCII string format, __:base64
+x.509 certificates have 3 ENCODING formats, _ _ _:ber cer der
+X.509 FILE formats, _, _, _, _:.pem .pfx .p7b .p12X
+(ACRONYM) PEM:privacy enhancement mail
+PEM file extension is, __ & file type is __:.pem base64
+Designed to provide confidentiality & integrity to emails, uses DER encoding, _ _ _:privacy enhancement mail
+(ACRONYM) PFX:personal information exchange
+PFX file extension is, __ & file type is __:.pfx binary
+Preferred file format for creating certs to authenticate apps or websites, password protected, _ _ _:personal information exchange
+PCKS#7 file extension is __ & file type is __:.p7b base64
+Cryptographic Message Syntax Standard that defines syntax for digital sign & encryption, _:pkcs#7
+PKCS#12 file extension is __ & file type is __:.p12 binary
+Personal Information Exchange Syntax standard for STORING & TRANSPORTING users private keys with public certificate:pkcs#12
+WHAT IS PUBLIC KEY INFRASTRUCTURE:ok
+__ cryptography must be used to create _ & _ keys:asymmetric public private
+a __ authority must verify the _ _ _:registration certificate signing request
+a __ CA myst process the _ _ _:intermediate certificate signing request
+the digital certificate must be placed in the _ _ & moved to _ _ _ when it expires:certificate repository certificate revocation list
+Underlying infrastructure for key management of public & private keys:public key infrastructure
+PKI is the infrastructure for _ _ of _ & _ keys:key management public private
+Framework for the administration for all elements involved with digital certificates management, _ _ _:public key infrastructure
+In short, _ _ _ is _ _ _:public key infrastructure digital certificate management
+Confidence or reliance on another person or entity, _:trust
+A _ _ refers to the type of trust relationship that can exist between individuals or entities:trust model
+trust model, relationship exists between two individuals, _ _:direct trust
+trust model, two individuals trust each other because they trust a common 3rd party, _ _ _:third party trust
+less secure trust model, each user signs a digital certificate & exhanges certificate with all other users, _ _ _:web of trust
+3 PKI TRUST MODELS USE a CA:ok
+#1, assigns a single hierarchy with one master CA (root), _ _ _:hierarchical trust model
+root signs all digital certificate authorities with a __ key:single
+hierarchy limitation, having a single CA may create significant __:backlog
+hierarchy limitation, if single private were compromised, then all digital certificates would be __:worthless
+#2, Instead of having a single CA, _ _ _ has muliple CAs that sign digital certificates:distributed trust model
+the _ _ _ is the basis for most digital certificates used on the internet:distributed trust model
+the disitrbuted trust model eliminates the __ of the hierarchical trust model:limitations
+#3, With the _ _ _, one CA acts as a facilitator to interconnect all other CAs:bridge trust model
+The facilitator CA does not issue _ _:digital certificates
+Instead, it acts as a _ between hierarchical & distributed trust models:hub
+(ACRONYM) CP:certificate policy
+Published set of rules that govern the operation of a PKI, _ _:certificate policy
+provides recommended baseline security requirements for use & operation of CA & other PKI components:certificate policy
+(ACRONYM) CPS:certificate Practice Statements
+More technical document than a CP, _ _ _:certificate practice statement
+Describes in detail how the CA uses & manages certificates, _ _ _:certificate practice statement
+Certificate Life Cycle (CSRE), _, _, _, _:creation suspension revocation expiration
+Key Handling Procedures (EERRRSD), _, _, _, _, _, _:escrow expiration renewal revocation recovery suspension destruction
+_ _ refers to process where keys are managed by 3rd party:key escrow
+Date after which keys cease to function, _:expiration
+Instead of letting keys expire they can be _:renewed
+A key may need to be __ prior to its expiration date:revoked
+Some CA systems have an embedded _ _ _ responsible for recovering lost or damaged certs:key recovery agent
+temporary removal of a key, __:suspension
+information on key is destroyed, __:destruction
+**CRYPTOGRAPHIC PROTOCOLS**:ok
+(ACRONYM) SSL:secure sockets layer
+threat actor intercepts unsecured request from user to server, _ _:ssl stripping
+attackers then establish https connection b/wn them & server while having HTTP with user, _ _:ssl stripping
+(ACRONYM) TLS:transport layer security
+current version of TLS, _:1.3
+named combination of encryption, authentication, message authentication code algorithms used with TLS & SSL, _ _:cipher suite
+(ACRONYM) SSH:secure shell
+SSH is actually a suite of 3 utilities, _ _ _:slogin ssh scp
+secure login to a remote computer, _:slogin
+execute commands on remote host without logging in, _:ssh
+copy files between remote computers, _:scp
+(ACRONYM) S/MIME:secure multipurpose internet mail extensions
+protocol for securing email messages, _ _ _ _ _:secure multipurpose internet mail extensions
+(ACRONYM) SRTP:secure realtime transport protocol
+secure extension protecting transmission using RTP, _ _ _ _:secure realtime transport protocol
+provides protection for VoIP, _:srtp
+(ACRONYM) IPsec:internet protocol security
+protocol suite for securing internet protocol communications, _:ipsec
+encrypts & authenticates each IP packets of a session between hosts or networks, _:ipsec
+IPsec is considered a _ security protocol:transparent
+#1, IPsec provides 3 areas of protection, _ _ _:authentication confidentiality key management
+#1, IPsec __ that packets received were sent from the source:authenticates
+#1, the authentication is in the __ of the packet:header
+#1, this accomplished by the _ _ protocol:authentication header
+#2, by encrypting packets, IPsec ensures __:confidentiality
+#2, confidentiality is achieved through _ _ _ protocol:encapsulating security payload
+#3, IPsec manages _ to ensure that they are not intercepted:keys
+#3, key management is accomplished through a protocol known as _/_:isakmp/oakley
+IPsec supports 2 encryption modes, _ _:transport tunnel
+_ _ encrypts only the data portion (payload) of each packet, yet leave header unencrypted:transport mode
+_ _, more secure, encrypts both the header & data portion:tunnel mode
+IPsec accomplishes transport & tunnel mode by adding new __ to the IP packet:headers
+**IMPLEMENTING CRYPTOGRAPHIC**:ok
+Value that serves as an input into an algorithm, _:key
+essentially random string of bits serves as input parameter for hash, symmetric, asymmetric encryption, _:key
+3 primary characteristics of key strength, _ _ _:randomness cryptoperiod length
+all possible values for a specific key make up its _ _:key space
+formula for key space is __-_ ^ __-_:character-set key-length
+algorithms are _, while keys are _:public private
+**BLOCK CIPHER MODES of OPERATION**:ok
+specifies how block ciphers should handle the blocks, _ _ _ _:block cipher mode of operation
+Some of the most common modes of block cipher, _ _ _ _:ecb cbc ctr gcm
+most basic approach, plaintext is divided into blocks, blocks are encrypted, _ _ _:electronic code book
+after being encrypted each ciphertext block is fed back into encryption process to encrypt next plaintext, _ _ _:cipher block chaining
+requires both sender & receiver access counter, which computes new value each time cipher block is exchanged, _:counter
+encrypts both plaintext & computes a message authentication code to esnure that message was created by sender, _/_:galois/counter

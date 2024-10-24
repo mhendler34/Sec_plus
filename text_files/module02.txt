@@ -1,0 +1,50 @@
+penetration testing level in which testers have no knowledge of the network or special privilegs, _ _:black box
+penetration testing team that monitors for Red Team attacks and shores up defenses, _ _:blue team
+monetary award for oncovering software vulnerability, _ _:bug bounty
+returning all systems back to normal following a penetration test:cleanup
+specialized framework for cloud specific security controls, _ _ _:cloud controls matrix
+organization whose goal is to raise awareness of Cloud best practices, _ _ _:cloud security alliance
+(ACRONYM) CVE:common vulnerabilities and exposures
+tool that identifies vulnerabilities in operating systems and application software, _ _ _ _:common vulnerabilities and exposures
+examination of the software settings for a vulnerability scan, _ _:configuration review
+scan which uses valid authentication credentials to mimic the work of a threat actor, _ _:credentialed scan
+faliure to raise an alarm when there is a problem, _ _:false negative
+raising an alarm when there is no problem, _ _:false positive
+gathering information from outside the organization:footprinting
+processes used to define policies & procedures for implementation & management of security controls:framework
+formal repository of information from enterprises & the government used to share information on latest attacks, _ _:fusion center
+penetration testing level in which testers are given LIMITED knowledge of network & SOME privileges:gray box
+vulnerability scan that attempts to employ any vulnerabilities which it finds, like a threat actor would, _ _:intrusive scan
+moving through a network looking for additional systems threat actors can access, _ _:lateral movement
+record of events that occur:log
+analysis of log data, _ _:log reviews
+(ACRONYM) CSF:cybersecurity framework
+NIST measuring stick against which companies compare their cybersecurity practices relative to threat faced, _ _ _:NIST cybersecurity framework
+(ACRONYM) RMF:risk management framework
+NIST guidance doc to help organizations assess & manage risks to their info & systems, _ _ _ _:NIST risk management framework
+vulnerability scan that provides NO AUTHENTICATION info to the test:noncredentialed scan
+vulnerability scan that DOES NOT attempt to exploit the vulnerability, only RECORDS that it was discovered, _ _:nonintrusive scan
+public accessible information, _ _ _:open source intelligence
+searching only for publicly accessbile information, _ _:passive reconnaissance
+(ACRONYM) PCIDSS:payment card industry data security standard
+compliance standard to provide a minimum degree of security for handling customer card information:payment card industry data security standard
+test that attempts to exploit vulnerability just as a threat actor would, _ _:penetrating testing
+load balancer creates a link between endpoint & network server for duration of session, _:persistence
+moving to more advanced resources that are normally protected from the user, _ _:privilege escalation
+penetration testing team provides real-time feedback between Red & Blue Team, _ _:purple team
+penetration testing team that scan for vulnerabilities & exploits them, _ _:red team
+(ACRONYM) SIEM:security information event management
+tool that consolidates real-time security monitoring & management with info analysis and reporting:siem
+SIEM:*X*X*X*X* add in the 5 or 6 categories of SIEM from text book
+(ACRONYM) SOAR:security orchestration automation response
+tool which combines data gathering & analytics in order to automate incident response:soar
+report on internal controls that reviews how a company safeguards customer data, _ _ _ _ _:SSAE SOC 2 Type II
+standard for reports on internal controls that can be freely distributed, _ _ _ _ _:SSAE SOC 2 Type III
+cybersecurity data feeds that provide information on the latest threats, _ _:threat feeds
+proactively searching for threats that have thus far gone undetected, _ _:threat hunting
+cybersecurity data feeds that provide info on laterst vulnerabilities, _ _:vulnerability feeds
+often automated process that continuously identifies vulnerabilities and monitors progress, _ _:vulnerability scan 
+searching for Wi-Fi from a car or on foot while using portable device, _ _:war driving
+searching for Wi-Fi using drones, _ _:war flying
+penetration testing level in which testers are given FULL knowledge of the network & source code applications, _ _:white box
+penetration testing that enforces the rules of the penetration test, _ _:white team

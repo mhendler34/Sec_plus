@@ -1,0 +1,54 @@
+controller for other devices:arduino
+(ACRONYM) BYOD:bring your own device
+allows users to use personal devices for business purposes:bring your own device
+uncoupling a phone from specific wireless provider:carrier unlocking
+comms network where coverage area is divided in HEXAGON-shaped cells:cellular telephony
+(ACRONYM) CYOD:choose your own device
+employees choose from selection of approved devices, but employee pays for device, biz own contrat:choose your own device
+contextual setting to validate a user:context-aware authentication
+(ACRONYM) COPE:corporate owned personally enabled
+employees choose from selection of corporate owned devices:corporate owned personally enabled
+firmware written by users to run on their own mobile devices:custom firmware
+computer hardware & software contained within a larger system designed for a specific function:embedded system
+device with USB connection that functions as host for access to media:external media access
+(ACRONYM) FPGA:field programmable gate array
+hardware integrated circuit that can be programmed by the user:field programmable gate array
+mobile operating system patches distributed Over-The-Air:firmware OTA updates
+using mobile device GPS to define geographical boundaries of app use:geofencing
+process of ID the geographic location of a device:geolocation
+adding geographical ID data to media (photos) taken on mobile device:geotagging
+location where users can access internet with wireless signal:hotspot
+cirumventing built-in limitations on Apple iOS devices:jailbreaking
+USB flash drive infected with malware:malicious flash drive
+USB cable embedded with a Wi-Fi controller that sends malicious commands:malicious USB cable
+(ACRONYM) MAM:mobile application management
+(ACRONYM) MCM:mobile content management
+(ACRONYM) MDM:mobile device management
+tools that allow a device to be managed remotely by org:mobile device management
+(ACRONYM) MMS:multimedia messaging service
+text messages in which pictures video or audio can be included:multimedia messaging service
+sending SMS messages to selected users or groups of users:push notification services
+(ACRONYM) RTOS:real time operating system
+OS that is specifically designed for an SoC in an embedded system:real time operating system
+technology used to erase sensitive data stored on a mobile device:remote wipe
+(ACRONYM) RCS:rich communication service
+mobile comms that converts texting app into lived chat platform, supports pictures:rich communication services
+circumventing the installed built-in limitations on Android devices:rooting
+(ACRONYM) SMS:short message service
+text messages of max 160 characters:short message service
+downloading unofficial apps:sideloading
+digital meters that measure the amount of utilities consumed:smart meters
+separating business data from personal data of mobile device:storage segmentation
+(ACRONYM) SCADA:supervisory control and data acquisition
+system that controls multiple industrial control systems (ICS):SCADA
+(ACRONYM) SoC:system on a chip
+single microprossor chip on a which all the necessary hardware components are contained:system on a chip
+using mobile device with internet connection to share connections with devices through Bluetooth or Wi-Fi:tethering
+:third party app store
+(ACRONYM) UEM:unified endpoint management
+group of software tools with single mgmt interface for mobile devices & computer devices:unified enpoint management
+allows mobile devices with USB connection to act as host or peripheral used for external media access:usb on the go
+(ACRONYM) VDI:virtual desktop infrastructure
+storing sensitive applications & data on a remote server that is accessed through a smartphone:virtual desktop infrastructure
+(ACRONYM) VOIP:voice over internet protocol
+data-based IP network allows digital voice clients onto the IP network:voice over internet protocol

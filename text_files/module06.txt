@@ -1,0 +1,113 @@
+**CRYPTOGRAPHY**:ok
+practice of transforming information into secure form, _:cryptography
+covered writing, __:steganography
+hiding a message in an image, audio or video file, _:steganography
+hidden writing, __:cryptography
+transforming information so that is cannot be understood by unauthorized parties, _:cryptography
+process of changing text into a scrambled message, _:encryption
+process of changing the message back into its original form, _:decryption
+unencrypted data that is input for encryption, _:plaintext
+data that is the out of decryption, _:plaintext
+scrambled & unreadable output of encryption, _:ciphertext
+unencrypted data that is not intended to be encrypted, _:cleartext
+procedures based on mathematical formula to encrypt/decrypt data, _:algorithm
+another term for algorithm, _:cipher
+mathematical value entered into algorithm to produce cipher text, _:key
+At its essence, cryptography replaces trust with, _:mathematics
+algorithm creating sequence of numbers who properties approximate those of a random number, _ _ _ :pseudorandom number generator
+**CRYPTOGRAPHIC USE CASES**:ok
+cryptography can provide the following security protections, _ _ _ _ _:confidentiality integrity authentication nonrepudiation obfuscation
+The inability to deny, _ :nonrepudiation
+ensures that only authorized parties can view info, _:confidentiality
+ensures info is correct & that data has not been altered, _:integrity
+proof that sender was legitimate & not an imposter _:authentication
+proves that a user performed an action, _:nonrepudiation
+makes something obscure or unclear, _:obfuscation
+"if the bad guys don't know about it, that makes it secure", _ _ _:security through obscurity
+What makes cryptography secure is the obscurity of the __ not the __:key algorithm
+**Cryptography can provide protection to data as that data resides in any of three states**:ok
+data on which actions are being performed by devices, _ _ _:data in processing
+actions that transmit the data across a network, _ _ _:data in transit
+data stored on electronic media, _ _ _:data at rest
+**CRYPTOGRAPHIC CONSTRAINTS**:ok
+, _ at which data is encrypted/decrypted depends on hardware/software:speed
+, _ of encrypted file could be larger than plaintext file:size
+, some ciphers produce weak _ that causes cipher to behave unpredictably:keys
+, some ciphers has short key _ that results in weaker security:length
+, _ or usefulness of lifetime service of cipher diminishes:longevity
+, _ weak random number generator may create predictable output:predictability
+, _ the same key for each encryption:reuse
+, _ measure of randomness, cipher with low _ give ability to predict future-generated value:entropy
+, _ _, IoT devices lack capacity to accomodate energy resouces of cipher:computational overhead
+Ability to recover quickly from these aforemetioned constraints, _ _:high resiliency
+Cryptography must have _ _:high resiliency
+Incorporating cryptography into low-power devices, _ _:lightweight cryptography
+**CRYPTOGRAPHIC ALGORITHMS**:ok
+Used once, cannot be broken mathematically, _ _ _:one time pad
+Algorithm that takes one character & replaces it with one character, _ _:stream cipher
+Algorithm that manipulates entire bock of plaintext at one time, _ _:block cipher
+Algorithm that takes input as string of any length & returns string of requested length, _ _:sponge function
+_ ciphers are less secure than _ ciphers:stream block
+3 BROAD CATEGORIES of CRYPTOGRAPHIC ALGORITHMS are _, _, _:hash symmetric asymmetric
+**HASH ALGORITHMS**:ok
+One way algorithm, _:hash
+_ algorithm creates a unique "digital fingerprint" of a set of data:hash
+process to create a unique digital fingerprint of data set:hashing
+the output of a hashing algorithm is called, __, _ _, or __:digest message digest hash
+A __ is intended to verify integrity of data & ID data transmission errors:checksum
+A __ is designed to create a unique digital finerprint of the data:hash
+A hashing algorithm considered secure w/following characteristcs, fixed _, _, _, _:size unique original secure
+Digest of short data set produces same size as digest of long data set, _ _:fixed size
+2 different data sets cannot produce the same digest, _:unique
+It should not be possible to a produce a data set that has a predefined hash, _:original
+The resulting hash cannot be reversed to determine original plaintext, _:secure
+COMMONS HASHING ALGOs, _ _, _ _ _:message digest secure hash algorithm
+**SYMMETRIC CRYPTOGRAPHIC ALGORITHMS**:ok
+Cryptographic algorithm that uses the same key to encrypt/decrypt data, _:symmetric
+symmetric encryption is also called _ _ _:private key cryptography
+SYMMETRIC ENCRYPTION ALGOs, _, _, _, _, _:des 3des aes rc blowfish
+first widely adopted symmetric encryption, no longer suitable for use:data encryption standard
+replacement for data encryption standard, _ _ _ _:triple data encryption standard
+most secure symmetric encryption standard, _ _ _:advanced encryption standard
+RC4, most common _ _, is a _ cipher that accepts key lengths up to 128bits:rivest cipher stream
+block cipher algorithm that operates on 64-bit blocks & key length between 32-448 bits:blowfish
+**ASYMMETRIC ENCRYPTION ALGORITHMS**:ok
+__ __ uses two keys instead of one key:asymmetric encryption
+asymmetric encryption is also known as _ _ _:public key cryptography
+ASYMMETRIC ENCRYPTION ALGOs, _, _, _:rsa ecc dsa
+Principles Regarding Asymmetric Cryptography, _ pairs, _ key, _ key, both _:key public private directions
+the basis for RSA asymmetric encryption is __:factoring
+ACRONYM (ECC):elliptic curve cryptography
+set of points that satisfy specific mathematical equation, _ _:elliptic curve
+with ECC users share one __ curve and one __ on the curve:elliptic point
+_ cryptography, can also be used to provide proofs:asymmetric
+_ _ _ is US federal standard for digital signatures:digital signature algorithm
+**solutions for key exchange within normal communications channel**:ok
+_ _ key exchange, uses same key requires Alice & Bob upon a large prime # & related integer:diffie helman
+_ _ _ key exchange, uses different keys called ephermeral keys:diffie helman ephemeral
+_ _ _ _, uses elliptic curve cryptography instead of prime numbers:elliptic curve diffie helman
+_ _ _, public key systems that generate DIFFERENT random public keys for each session:perfect forward secrecy
+**ATTACKS ON CRYPTOGRAPHY**:ok
+attack on ciphertext, _ _ _:known ciphertext attack
+changes a single character of plaintext into multiple characters of ciphertext:diffusion
+makes each character of ciphertext based upon several parts of the key:confusion
+attacker forces system to abandon current high security mode & fall back to older less secure mode, _ _:downgrade attack
+2 files having the same digest is known as a _ attack:collision
+_ _ is an attempt to find 2 input strings of a hash function that produces the same hash result:collision attack
+a statistical phenomenon that makes finding collisions easier, _ _:birthday attack
+**USING CRYPTOGRAPHY**:ok
+Hardware Encryption types, _ device encryption, _, _, _:usb sed hsm tpm
+compromised drives can be remotely disabled, _ _ _:usb device encryption
+Administrators can remotely control& track activity on devices, _ _ _:usb device encryption
+will not connect to computer until correct password is provided, _ _ _:usb device encryption
+(ACRONYM) SED:self encrypting drives
+drives that can automatically encrypt any data on them if authenication fails, _ _ _:self encrypting drives
+if authentication fails drive can perform cryptograhic erase, _ _ _:self encrypting drives
+(ACRONYM) HSM:hardware security module
+removable external cryptographic device, _ _ _:hardware security module
+_ _ _ includes random # generator, key storage, sym & asymmetric encryption:hardware security module
+(ACRONYM) TPM:trusted platform module
+chip on motherboard that provides cryptographic services, _ _ _:trusted platform module
+HSM is __ while TPM is __:external internal
+shared immutable ledger that records transactions & tracks assets, _:blockchain
+Blockchain relies on _ _ _ to record its transactions:cryptographic hash algorithms

@@ -1,0 +1,21 @@
+**8.2.1 - FILE SERVER SECURITY**:ok
+File Sever Security best practices:
+1.) prevent __ access:physical
+2.) principle of __ __:least privilege
+3.) disk __:encryption
+4.) remove/disable unused __ & __:ports services
+5.) enable __:auditing
+6.) Implicit __ ACLs:deny
+7.) implement strong __:authentication
+FTP is inherently __: unsecure
+Ways to secure ftp:ok
+1.) use a __:VPN
+2.) create tunnels with __ or _-:ipsec ssh
+FTP over ssh or secure FTP
+3.) FTPS:uses ssl or TLS
+SCP:secure copy protocol
+SCP: uses __:ssh
+SCP allows no __ traversal:directory
+SFTP: secure shell file transfer protocol
+in SFTP, files transfered through __ __:ssh tunnel
+SFTP is not related to __:ftp

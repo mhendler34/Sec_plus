@@ -1,0 +1,60 @@
+Individuals or groups with authorized access to orgs systems & data, harbor grievances_ _:insider threats
+Politically motivated cyber attackers, __:hacktivists
+Governments support __ __ __ that engage in highly sophisticated attacks:nation state actors
+__ attacks aim at theft, disrupting a competitors business or damaging reputation:competitor
+Characterized by stealthy, long term breaches aims at acquiring info:espionage
+_ _ _ are cyber nation-state adversaries that have developed cybersecurity expertise:advanced persistent threats
+_ _ attack, threat actor seeks method to infiltrate a company in its supply chain:supply chain
+_ attack is a brute force attack aimed at exploiting collisions in hash functions:birthday
+_ _ attack, involves accessing unsuspected users after they plug their devices into malicious usb cables:usb cable
+use of social engineering & spoofing, __:phishing
+This type of attack causes service disruptions, _ _ _:denial of service
+__ (thin/thick) client is a low-power computer that runs from resources stored on a central server:thi
+Type of Phishing attack conducted through VOICE channel, __:vishing
+Phishing scam where attacker has some info that is more likely to fool an individual target, _ _:spear phishing
+Type of Spear Phishing attack explicilty designed against upper levels of mgmt, __:whaling
+Attack that refers to using texts communications as the attack vector, __:smishing
+Social Engineering technique where the attacker ID a frequently visited website & compromises websitew w/malicious code:watering hole
+__ Involves redirecting users from legititmate websites to malicious ones by corrupting name resolution process:pharming
+(ACRONYM) LEAP:lightweight extensible authentication protocol
+(ACRONYM) EAP-FAST:extensible authentication protocol flexible authentication via secure tunneling
+(ACRONYM) PEAP:protected extensible authentication protocol
+(ACRONYM) TLS:transport layer security
+(ACRONYM) PAC:protected access credential
+Cisco's replacement for LEAP:eap-fast
+EAP-FAST uses __ with __ instead of certificates:tls pac 
+Uses server-side public key certificate to create encrypted tunnel between supplicant & authentication server, __:peap
+This protocol is an industry standard, __ :peap
+_ _ _ is a sophisticated attack that targets specific individuals, impersonates colleague, to trick target into doing something:business email compromise
+__ phishing involves social media as thee vector to deceive targets into clicking on a malicious link:angler
+__, registering domains like legitimate ones, making users believe they are accessing a trusted site:typosquatting
+Social Engineering technique to create a distraction & create convincing pretext to gain access, _:pretexting
+__, is spam over instant messaging:spim
+Attacker passes data that deliberately flood a temporary memory space, __ __:buffer overflow
+Application __ __ vulnerabilities are Software flaws associated with timing or order of events w/in a program:race condition
+__ __ vulnerabilities refer to security flaws where attacker can introduce malicious code into apps processs memory:memory injection
+(ACRONYM)  TOCTOU:time of check time of use
+(ACRONYM) __ race conditions occur when a system's state changes between checking a condition & using results of that condition:toctou
+Applying file locks upon access check helpss to prevent __:toctou
+_ _ _ is a critical issue in a virtualized environment, where app can bypass VM barriers & interact with host OS:virtual machine escape
+input _ & _ help protect against SQLi & XSS:validation sanitization
+(ACRONYM) SQLi:sql injection
+(ACRONYM) XSS:cross site scripting
+__ __ takes any residual data  in a resource & cleans it before reuse:secure deallocation
+Anomaly where the log data occurs outside of expected logging cycle, _ _ _ logging:out of cycle
+Attack method to gain unauthorized access by attempting a common pword across many accounts, __:spraying
+Type of malware that holds victims data hostage by encrypting it, & releases it upon a ransom payment, __:ransomware
+malware that can execute without requiring any authorization, using the computer system's privileges:rootkit
+__, malware that replicates & spreads from computer to computer by infecting executable apps or program code:virus
+__, spyware that actively attempts to steal confidential information by recording keystrokes:keylogger
+__ __, malware that waits for preconfigured time/date or system/user event before triggering:logic bomb
+__, malware that conceals within an installer package for software that appears useful, routine, legitimate, activates secretly:trojan
+__, malware that spreads without any authorization from the user, concealed within exe code of another process:worm
+__, malware that monitors local app activity, takes screenshots, activates recording devices:spyware
+Security alert is triggered when a user's account logs in from 2 distant locations in a short time span, __ __:impossible travel
+Application attack where an app is vulnerable to an attacker writing data beyond the end of allocated space:buffer overflow
+Enables attackers to inject client-side scripts into web pages viewed by others, _ _ _:cross site scripting
+Attack coming from multiple systems in an attempt to exhaust resources, __(acronym):ddos
+The act of capturing & reusing authenticatoin information, __ __:credential replay
+Attack that involves reusing credentials, specifically referring to Kerberos tickets, _ _ _:pass the ticket
+Attacks that involves creating a Kerberos (TGT) ticket granting ticket for any user, to any resource in the forest _ _:golden ticket
